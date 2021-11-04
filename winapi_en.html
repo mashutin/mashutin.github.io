@@ -154,23 +154,23 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#add-type-cmdlet">
-   Add-Type cmdlet
+  <a class="reference internal nav-link" href="#using-add-type">
+   Using Add-Type
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#extraction-of-private-net-methods">
-   Extraction of private .NET methods
+  <a class="reference internal nav-link" href="#extracting-private-net-methods">
+   Extracting private .NET methods
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#reflection">
-   Reflection
+  <a class="reference internal nav-link" href="#using-reflection">
+   Using reflection
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-to-choose">
-   How to choose
+  <a class="reference internal nav-link" href="#making-the-choice">
+   Making the choice
   </a>
  </li>
 </ul>
@@ -193,8 +193,8 @@
 <li><p>Extraction of private .NET methods</p></li>
 <li><p>Reflection</p></li>
 </ul>
-<div class="section" id="add-type-cmdlet">
-<h2>Add-Type cmdlet<a class="headerlink" href="#add-type-cmdlet" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="using-add-type">
+<h2>Using Add-Type<a class="headerlink" href="#using-add-type" title="Permalink to this headline">¶</a></h2>
 <p>The <strong>Add-Type</strong> cmdlet allows to compile the source code of the required Windows API function in C# and to apply a static .NET method in the current PowerShell session.</p>
 <p>Using the <strong>Add-Type</strong> cmdlet requires knowing the data types and parameters of the Windows API function. Such information can be obtained from Microsoft documentation. E.g., the <a class="reference external" href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-showwindowasync">ShowWindowAsync</a> function has the following syntax:</p>
 <div class="highlight-C++ notranslate"><div class="highlight"><pre><span></span><span class="n">BOOL</span><span class="w"> </span><span class="nf">ShowWindowAsync</span><span class="p">(</span><span class="w"></span>
@@ -232,8 +232,8 @@
 <p>Calling a static .NET method requires two colons between the variable name and the method. In the example above, the method of the <strong>ShowWindowAsync</strong> function is used to minimize the active window. The <strong>Get-Process</strong> cmdlet uses <strong>$pid</strong> variable to get the ID of the current PowerShell session process. Then the <strong>ShowWindowAsync</strong> method sets the main window handle to ‘2’ to minimize it.</p>
 <p>Similar source code can be used for adding a function to PowerShell. Save a relevant script in user profile to make the method available during the future sessions.</p>
 </div>
-<div class="section" id="extraction-of-private-net-methods">
-<h2>Extraction of private .NET methods<a class="headerlink" href="#extraction-of-private-net-methods" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="extracting-private-net-methods">
+<h2>Extracting private .NET methods<a class="headerlink" href="#extracting-private-net-methods" title="Permalink to this headline">¶</a></h2>
 <p>.NET uses Windows API functions. The framework calls them from the loaded dynamic libraries using private static methods with the <strong>DllImport</strong> attribute.</p>
 <p>Windows PowerShell allows to write a script or a function that will search for the required WinAPI method in the loaded DLLs. Here is an example of such <a class="reference external" href="https://devblogs.microsoft.com/scripting/use-powershell-to-interact-with-the-windows-api-part-2/">function</a>:</p>
 <div class="highlight-PowerShell notranslate"><div class="highlight"><pre><span></span><span class="k">function</span> <span class="nb">Find-WinAPIFunction</span>
@@ -279,15 +279,15 @@
 <img alt="_images/1.png" src="_images/1.png" />
 <p>The <strong>CopyFile</strong> method is in the <strong>Microsoft.Win32.Win32Native</strong> type of the <strong>mscorlib.dll</strong> library. Now you can add a function that will call the method by extracting it from the containing dynamic library and type. An example of such function can be found <a class="reference external" href="https://gallery.technet.microsoft.com/scriptcenter/Copy-RawItem-Private-NET-78917643">here</a> .</p>
 </div>
-<div class="section" id="reflection">
-<h2>Reflection<a class="headerlink" href="#reflection" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="using-reflection">
+<h2>Using reflection<a class="headerlink" href="#using-reflection" title="Permalink to this headline">¶</a></h2>
 <p>Reflection is another way of calling the methods of WinAPI functions in PowerShell environment. First, type introspection is performed, which is discovering methods and properties of a function. The most obvious way to do that in PowerShell is the <strong>Get-Member</strong> cmdlet. Then the collected data is used to generate code dynamically.</p>
 <p>In order to understand the process of reflection and dynamic code generation, one should think of the current system environment as a structure of nested containers. The highest level is <strong>AppDomain</strong> of the PowerShell session. It contains multiple assemblies. Assemblies contain modules, i.e. DLLs. Modules are containers for types. Finally, types contain members that are subject for reflection. Members include methods, properties, nested types, and events.</p>
 <p>The concept of generating code dynamically is to define all elements of the nested structure. First, a dynamic assembly is defined within the current <strong>AppDomain</strong>. Then a dynamic module, a dynamic type and a dynamic method must be defined progressively. The dynamic method is assigned <strong>Public</strong> and <strong>Static</strong> attributes, as well as a custom <strong>DllImport</strong> attribute. Finally, the CreateType method is applied to make the new dynamically defined method available for the current PowerShell session.</p>
 <p><a class="reference external" href="https://gallery.technet.microsoft.com/scriptcenter/Copy-RawItem-Reflection-38fae6d4">Here</a>  you can find an example of the function, that implements the abovementioned process.</p>
 </div>
-<div class="section" id="how-to-choose">
-<h2>How to choose<a class="headerlink" href="#how-to-choose" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="making-the-choice">
+<h2>Making the choice<a class="headerlink" href="#making-the-choice" title="Permalink to this headline">¶</a></h2>
 <p>The <strong>Add-Type</strong> cmdlet is the simplest and the least error prone way to make WinAPI functions available in PowerShell environment. This method is sufficient for accessing most functions of the system DLL’s.</p>
 <p>But using the <strong>Add-Type</strong> cmdlet requires writing temporary files to disk and calling csc.exe – the C# compiler. That may be undesirable when zero footprint is necessary. In such cases extraction of .NET methods is preferable.</p>
 <p>Finally, reflection may do the job if the required WinAPI function is not present in the loaded part of .NET framework or is contained in a DLL that is not accessible from the current Windows PowerShell session.</p>

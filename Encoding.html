@@ -242,13 +242,14 @@
 <h3>Basics of Text Encoding and ASCII<a class="headerlink" href="#basics-of-text-encoding-and-ascii" title="Permalink to this headline">¶</a></h3>
 <p>A human perceives a text as an arrangement of letters. Spaces between letters help us to recognize words, and words have their specific meanings. Computers deal with texts in a different way. They treat letters, digits, punctuation marks and whitespaces as characters, and process them in the form of bits. A bit is a basic unit of information that shows a logical state and has one of two possible values. These values are commonly represented as “0” and “1”.</p>
 <p>Here is the word <em>hello</em> represented in 0’s and 1’s:</p>
-<p>01101000 01100101 01101100 01101100 01101111</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">01101000</span> <span class="mi">01100101</span> <span class="mi">01101100</span> <span class="mi">01101100</span> <span class="mi">01101111</span>
+</pre></div>
+</div>
 <p>A character encoding standard, or simply <strong>encoding</strong>, allows all computers to record characters as bits and read them in the same way.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Encoding</dt>
-<dd class="field-odd"><p>a set of rules for converting texts from one representation to another.</p>
-</dd>
-</dl>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><strong>Encoding</strong> is a set of rules for converting texts from one representation to another.</p>
+</div>
 <p>In 1963 the first version of <strong>The American Standard Code for Information Interchange (ASCII)</strong> was published. It described 7-bit codes for 128 characters including digits, lowercase and uppercase Latin letters, punctuation symbols, non-printing characters, and control codes.</p>
 <p>Here are the letters of <em>word</em> with their ASCII codes in binary:</p>
 <table class="table">
@@ -272,34 +273,34 @@
 </tbody>
 </table>
 <p>This table is a simplified example of a <strong>code page</strong>.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Code page</dt>
-<dd class="field-odd"><p>a table where characters are assigned to specific bit sequences.</p>
-</dd>
-</dl>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><strong>Code page</strong> is a table where characters are assigned to specific bit sequences.</p>
+</div>
 <p>Although ASCII in usually associated with binary representation, a bit sequence can be represented in any numerical system.</p>
 <p>Here are the ASCII codes of <em>hello</em> in hexadecimal:</p>
-<p>68 65 6C 6C 6F</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">68</span> <span class="mi">65</span> <span class="mi">6</span><span class="n">C</span> <span class="mi">6</span><span class="n">C</span> <span class="mi">6</span><span class="n">F</span>
+</pre></div>
+</div>
 <p>In ASCII each character is coded by 7 bits, while a byte consists of 8 bits. It means that the left-most bit is always “0”. Making the left-most bit meaningful allows to double the number of available codes. And that was done to include letters of languages other than English. But 256 codes were still not enough for the characters of all existing languages to be put in one single code page. That is why numerous code pages for different languages and their combinations appeared.</p>
 </div>
 <div class="section" id="single-byte-character-encodings">
 <h3>Single-Byte Character Encodings<a class="headerlink" href="#single-byte-character-encodings" title="Permalink to this headline">¶</a></h3>
 <p>Most of national code pages use exactly one byte to encode each graphic character. They are commonly referred to as <strong>single-byte character set (SBCS)</strong> encodings.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Character set or charset</dt>
-<dd class="field-odd"><p>a set of characters that can be encoded.</p>
-</dd>
-</dl>
-<p>E.g., the charset of ASCII is limited to 128 characters, while single-byte charsets can include up to 256 characters.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
+<p><strong>Character set or charset</strong> is a set of characters that can be encoded.</p>
+</div>
+<p>E.g., the charset of ASCII is limited to 128 characters, while single-byte charsets can include up to 256 characters.</p>
+<div class="admonition-mind-the-difference admonition">
+<p class="admonition-title">Mind the difference!</p>
 <ul class="simple">
 <li><p>An <strong>encoding</strong> is a set of rules for text conversion</p></li>
 <li><p>A <strong>code page</strong> is a table that assigns codes to characters</p></li>
 <li><p>A <strong>character set</strong> is a set of characters that can be encoded</p></li>
 </ul>
 </div>
-<p>These three terms are very often used interchangeably. But it is important to keep in mind their exact definitions for a better understanding of text conversion procedures.</p>
+<p>The above terms are very often used interchangeably. But it is important to keep in mind their exact definitions for a better understanding of text conversion procedures.</p>
 <p>Single-byte character sets were in common use in 1980’s and 1990’s, and their support is still available in Windows and other platforms. SBCS encodings (e.g., Windows-1252, KOI8-R, ISO/IEC 8859, etc.) are extended ASCII code pages as their first 128 codes are similar to ASCII. They are also referred to as <em>Windows code pages</em>.</p>
 <p>Here are the common issues and limitations of these encodings:</p>
 <ul class="simple">
@@ -396,11 +397,10 @@
 <div class="section" id="utf-8">
 <h3>UTF-8<a class="headerlink" href="#utf-8" title="Permalink to this headline">¶</a></h3>
 <p>The name of this encoding derives from <em>Unicode Transformation Format – 8-bit</em>.  8-bit refers to the length of each <strong>code unit</strong>.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Code unit</dt>
-<dd class="field-odd"><p>the unit of storage of a code point.</p>
-</dd>
-</dl>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><strong>Code unit</strong> is the unit of storage of a code point.</p>
+</div>
 <p>A code point can be encoded with one or several code units. UTF-8 is a variable length character encoding. It uses one code unit for each of the first 128 code points, and up to 4 code units for each of the subsequent ones. In other words, a Unicode character in UTF-8 occupies from 1 to 4 bytes of disk space.</p>
 <p>A character can be encoded with 1, 2, 3, or 4 code units. The number of code units or bytes in each specific encoded character can be detected by one or several highest bits as follows:</p>
 <table class="table">
@@ -429,35 +429,27 @@
 </tbody>
 </table>
 <p>This is how UTF-8 encodes U+0621 (ARABIC LETTER HAMZA) into <em>d8 a1</em>:</p>
-<p>0621 belongs to the range 0080-07FF, so it will take 11 bits and two code units to encode it</p>
-<ol class="arabic simple">
-<li><dl class="simple">
-<dt>Convert “0621” into binary</dt><dd><ul class="simple">
-<li><p>0621 –&gt; 11000100001.</p></li>
-</ul>
-</dd>
-</dl>
+<p>First of all, 0621 belongs to the range 0080-07FF, so it will take 11 bits and two code units to encode it.</p>
+<ol class="arabic">
+<li><p>Convert “0621” into binary:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">0621</span> <span class="o">--&gt;</span> <span class="mi">11000100001</span>
+</pre></div>
+</div>
 </li>
-<li><dl class="simple">
-<dt>Apply the 10xxxxxx mask to the bits numbered 0-6 (starting from the right-most bit) to get the second byte</dt><dd><ul class="simple">
-<li><p>_ _ _ _ _ 100001 –&gt; 10100001</p></li>
-</ul>
-</dd>
-</dl>
+<li><p>Apply the 10xxxxxx mask to the bits numbered 0-6 (starting from the right-most bit) to get the second byte:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">_</span> <span class="n">_</span> <span class="n">_</span> <span class="n">_</span> <span class="n">_</span> <span class="mi">100001</span> <span class="o">--&gt;</span> <span class="mi">10100001</span>
+</pre></div>
+</div>
 </li>
-<li><dl class="simple">
-<dt>Apply the 110xxxxx mask to the remaining five bits to get the first byte</dt><dd><ul class="simple">
-<li><p>11000 _ _ _ _ _ _ –&gt; 11011000</p></li>
-</ul>
-</dd>
-</dl>
+<li><p>Apply the 110xxxxx mask to the remaining five bits to get the first byte:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">11000</span> <span class="n">_</span> <span class="n">_</span> <span class="n">_</span> <span class="n">_</span> <span class="n">_</span> <span class="n">_</span> <span class="o">--&gt;</span> <span class="mi">11011000</span>
+</pre></div>
+</div>
 </li>
-<li><dl class="simple">
-<dt>Convert 11011000 10100001 into hexadecimal</dt><dd><ul class="simple">
-<li><p>11011000 10100001 –&gt; d8 a1.</p></li>
-</ul>
-</dd>
-</dl>
+<li><p>Convert 11011000 10100001 into hexadecimal:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">11011000</span> <span class="mi">10100001</span> <span class="o">--&gt;</span> <span class="n">d8</span> <span class="n">a1</span><span class="o">.</span>
+</pre></div>
+</div>
 </li>
 </ol>
 <div class="admonition important">
@@ -473,77 +465,66 @@
 <p>The code unit in UTF-16 encoding is 16 bits long. It is also a variable length encoding, but unlike UTF-8 there are either 2 or 4 bytes per character. UTF-16 is commonly used for text strings in Microsoft Windows, Java, C#, and some other applications.</p>
 <p>One or two 16-bit code units in UTF-16 allow to encode the whole Unicode codespace. UTF-16 encodes each code point in the range U+0000-U+FFFF with a single byte. This range covers the characters of the most common languages and writing systems.</p>
 <p>The code points in the range from U+10000 to U+10FFFF are encoded by UTF-16 in the form of surrogate pairs.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Surrogate pair</dt>
-<dd class="field-odd"><p>two 16-bit code units in UTF-16.</p>
-</dd>
-</dl>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><strong>Surrogate pair</strong> is two 16-bit code units in UTF-16.</p>
+</div>
 <p>According to the Unicode standard, the code points within the range U+D800–U+DFFF are excluded from BMP and used to create surrogate pairs in UTF-16.</p>
 <p>This is how to create a surrogate pair for Unicode Han Character U+22023 in UTF-16:</p>
-<ol class="arabic simple">
-<li><dl class="simple">
-<dt>Substract 10000 from the code point</dt><dd><ul class="simple">
-<li><p>22023 – 10000 = 12023 (hexadecimal) –&gt; 0001001000 0000100011 (binary, 20 bits)</p></li>
-</ul>
-</dd>
-</dl>
+<ol class="arabic">
+<li><p>Substract 10000 from the code point:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>22023 – 10000 = 12023 (hexadecimal) –&gt; 0001001000 0000100011 (binary, 20 bits)
+</pre></div>
+</div>
 </li>
-<li><dl class="simple">
-<dt>Add the high ten bits to D800</dt><dd><ul class="simple">
-<li><p>0001001000 (binary) –&gt; 48 (hexadecimal) + D800 = D848</p></li>
-<li><p>That is the first 16-bit code unit or high surrogate</p></li>
-</ul>
-</dd>
-</dl>
+<li><p>Add the high ten bits to D800:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>0001001000 (binary) –&gt; 48 (hexadecimal) + D800 = D848
+</pre></div>
+</div>
+<p>That is the first 16-bit code unit or <em>high surrogate</em>.</p>
 </li>
-<li><dl class="simple">
-<dt>Add the low ten bits to DC00</dt><dd><ul class="simple">
-<li><p>0000100011 (binary) –&gt; 23 (hexadecimal) + DC00= DC23</p></li>
-<li><p>That is the second 16-bit code unit or low surrogate</p></li>
-</ul>
-</dd>
-</dl>
+<li><p>Add the low ten bits to DC00:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>0000100011 (binary) –&gt; 23 (hexadecimal) + DC00= DC23
+</pre></div>
+</div>
+<p>That is the second 16-bit code unit or <em>low surrogate</em>.</p>
 </li>
-<li><dl class="simple">
-<dt>The high surrogate and the low surrogate form the surrogate pair</dt><dd><ul class="simple">
-<li><p>d848 dc23</p></li>
-</ul>
-</dd>
-</dl>
+<li><p>The high surrogate and the low surrogate form the surrogate pair:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">d848</span> <span class="n">dc23</span>
+</pre></div>
+</div>
 </li>
 </ol>
 <p>The ranges of high surrogates and low surrogates are excluded from the BMP. The first byte of a surrogate pair can never be decoded as a BMP code point. On the other hand, two consecutive code points can never be taken for a surrogate pair.</p>
 <p>Check out the decoding procedure for <em>d803 de62</em>:</p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>In computing, bits are numbered from right to left. The right-most bit is the bit 0.</p>
 </div>
-<ol class="arabic simple">
-<li><dl class="simple">
-<dt>Check the value of the bit 9 to decide if the surrogate is high/low</dt><dd><ul class="simple">
-<li><p>D803 –&gt; 1101100000000011 – the bit 9 is 0, it is a high surrogate</p></li>
-<li><p>DE62 –&gt; 1101111001100010 – the bit 9 is 1, it is a low surrogate</p></li>
-</ul>
-</dd>
-</dl>
+<ol class="arabic">
+<li><p>Check the value of the bit 9 to decide if the surrogate is high/low:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>D803 –&gt; 1101100000000011
+</pre></div>
+</div>
+<p>The bit 9 is 0—it is the high surrogate.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>DE62 –&gt; 1101111001100010
+</pre></div>
+</div>
+<p>The bit 9 is 1—it is the low surrogate.</p>
 </li>
-<li><dl class="simple">
-<dt>The high six bits are meaningless – they only indicate that it is a surrogate. Remove them from each surrogate and make up a 20-bit sequence</dt><dd><ul class="simple">
-<li><p>1101100000000011 1101111001100010 –&gt; 0000000011 1001100010</p></li>
-</ul>
-</dd>
-</dl>
+<li><p>The high six bits are meaningless – they only indicate that it is a surrogate. Remove them from each surrogate and make up a 20-bit sequence:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1101100000000011</span> <span class="mi">1101111001100010</span> <span class="o">--&gt;</span> <span class="mi">0000000011</span> <span class="mi">1001100010</span>
+</pre></div>
+</div>
 </li>
-<li><dl class="simple">
-<dt>Add 10000 in hexadecimal to get the code point in Unicode</dt><dd><ul class="simple">
-<li><p>0000000011 1001100010 -&gt; e62</p></li>
-<li><p>E62 + 10000 = 10E62</p></li>
-<li><p>U+10E62 – RUMI DIGIT THREE</p></li>
-</ul>
-</dd>
-</dl>
+<li><p>Add 10000 in hexadecimal to get the code point in Unicode:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">0000000011</span> <span class="mi">1001100010</span> <span class="o">-&gt;</span> <span class="n">e62</span>
+<span class="n">E62</span> <span class="o">+</span> <span class="mi">10000</span> <span class="o">=</span> <span class="mf">10E62</span>
+</pre></div>
+</div>
 </li>
 </ol>
+<p>U+10E62 is RUMI DIGIT THREE</p>
 </div>
 <div class="section" id="byte-order-in-utf-16">
 <h3>Byte Order in UTF-16<a class="headerlink" href="#byte-order-in-utf-16" title="Permalink to this headline">¶</a></h3>
@@ -561,11 +542,10 @@ Big-endian systems store the most significant byte at the smallest memory addres
 </div>
 <p>A little-endian system will store <em>d848 dc23</em> as “48 d8 23 dc”.</p>
 <p>In UTF-16 the byte order is specified by a <strong>Byte Order Mark (BOM)</strong>.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Byte Order Mark (BOM)</dt>
-<dd class="field-odd"><p>an U+FEFF code point recorded as the first character in text.</p>
-</dd>
-</dl>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><strong>Byte Order Mark (BOM)</strong> is an U+FEFF code point recorded as the first character in text.</p>
+</div>
 <p>In Unicode U+FEFF stands for the invisible zero-width non-breaking space (ZWNBSP).</p>
 <p>If the first byte is read as U+FEFF, it means that the decoder has the same architecture as the encoder and the whole text must be decoded regularly. But if it is U+FFEF, which is a non-character in Unicode, bytes must be swapped in the remaining code units.</p>
 <p>The byte order can also be designated by the name of the encoding. If the encoding is specified as UTF-16LE or UTF-16BE, it means that the byte order is little-endian or big-endian respectively. In this case a BOM must not be present and U+FEFF must be decoded as ZWNBSP. However, most applications still ignore U+FEFF when it is the first character in a text.</p>

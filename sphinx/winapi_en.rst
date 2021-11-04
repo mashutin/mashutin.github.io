@@ -1,6 +1,5 @@
-********************************************************
 How to Interact with Windows API Functions in PowerShell
-********************************************************
+========================================================
 
 Windows PowerShell is an object-oriented scripting environment. It is based on the platform of .NET Framework. PowerShell uses .NET classes with their properties and methods. This command shell is helpful for system maintenance tasks, setting up servers, software installation and automated network administration.
 
@@ -10,8 +9,9 @@ But there are specific low-level tasks, which are beyond the standard functional
 -	Extraction of private .NET methods
 -	Reflection
 
-Add-Type cmdlet
-===============
+Using Add-Type
+---------------
+
 The **Add-Type** cmdlet allows to compile the source code of the required Windows API function in C# and to apply a static .NET method in the current PowerShell session.
 
 Using the **Add-Type** cmdlet requires knowing the data types and parameters of the Windows API function. Such information can be obtained from Microsoft documentation. E.g., the `ShowWindowAsync <https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-showwindowasync>`_ function has the following syntax:
@@ -66,8 +66,8 @@ Calling a static .NET method requires two colons between the variable name and t
 
 Similar source code can be used for adding a function to PowerShell. Save a relevant script in user profile to make the method available during the future sessions.
 
-Extraction of private .NET methods
-==================================
+Extracting private .NET methods
+----------------------------------
 
 .NET uses Windows API functions. The framework calls them from the loaded dynamic libraries using private static methods with the **DllImport** attribute.
 
@@ -130,8 +130,8 @@ The PowerShell window will display the following:
  
 The **CopyFile** method is in the **Microsoft.Win32.Win32Native** type of the **mscorlib.dll** library. Now you can add a function that will call the method by extracting it from the containing dynamic library and type. An example of such function can be found `here <https://gallery.technet.microsoft.com/scriptcenter/Copy-RawItem-Private-NET-78917643>`_ .
 
-Reflection
-==========
+Using reflection
+----------------------
 
 Reflection is another way of calling the methods of WinAPI functions in PowerShell environment. First, type introspection is performed, which is discovering methods and properties of a function. The most obvious way to do that in PowerShell is the **Get-Member** cmdlet. Then the collected data is used to generate code dynamically.
 
@@ -141,8 +141,8 @@ The concept of generating code dynamically is to define all elements of the nest
 
 `Here <https://gallery.technet.microsoft.com/scriptcenter/Copy-RawItem-Reflection-38fae6d4>`_  you can find an example of the function, that implements the abovementioned process.
 
-How to choose
-=============
+Making the choice
+------------------
 
 The **Add-Type** cmdlet is the simplest and the least error prone way to make WinAPI functions available in PowerShell environment. This method is sufficient for accessing most functions of the system DLL’s.
 

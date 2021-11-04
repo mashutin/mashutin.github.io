@@ -5,7 +5,7 @@
 #site-navigation nav ul.nav li.active>a:hover{color:#5CD892}
 #site-navigation h1.site-logo{margin:.5em 0 0 0;font-size:1.1em;color:#4C556D;text-align:center} */
 
-.hint .admonition-title {
+/* .hint .admonition-title {
     font-size: 0;
 }
 
@@ -29,7 +29,7 @@
 .error .admonition-title::after {
     content: 'Incorrect';
     font-size: 1rem;
-}
+} */
 
 /* .bd-toc nav li.active>a.active{color:#5CD892}
 .bd-toc nav a:hover{color:#5CD892}
