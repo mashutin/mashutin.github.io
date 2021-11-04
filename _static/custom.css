@@ -1,0 +1,59 @@
+/* #site-navigation nav ul.nav li a,
+#site-navigation nav ul.nav ul li a{color:#4C556D}
+#site-navigation nav ul.nav a:hover,
+#site-navigation nav ul.nav li.active>a{color:#5CD892}
+#site-navigation nav ul.nav li.active>a:hover{color:#5CD892}
+#site-navigation h1.site-logo{margin:.5em 0 0 0;font-size:1.1em;color:#4C556D;text-align:center} */
+
+.hint .admonition-title {
+    font-size: 0;
+}
+
+.hint .admonition-title::before {
+    font-size: 1rem;
+}
+
+.hint .admonition-title::after {
+    content: 'Correct';
+    font-size: 1rem;
+}
+
+.error .admonition-title {
+    font-size: 0;
+}
+
+.error .admonition-title::before {
+    font-size: 1rem;
+}
+
+.error .admonition-title::after {
+    content: 'Incorrect';
+    font-size: 1rem;
+}
+
+/* .bd-toc nav li.active>a.active{color:#5CD892}
+.bd-toc nav a:hover{color:#5CD892}
+.bd-toc nav li.active>a:hover{color:#5CD892}
+.bd-toc nav li.active>a.active{border-left:2px solid #5CD892} */
+
+/* .bd-toc{padding:0px !important;right:-1em;z-index:999;height:auto}
+.bd-toc div.onthispage,.bd-toc .toc-entry a{color:#5a5a5a}
+.bd-toc nav{opacity:0;max-height:0;transition:opacity 0.2s ease, max-height .7s ease;overflow-y:hidden;background:white;scrollbar-width:thin}
+.bd-toc nav::-webkit-scrollbar{width:5px}
+.bd-toc nav::-webkit-scrollbar{background:#f1f1f1}
+.bd-toc nav::-webkit-scrollbar-thumb{background:#c1c1c1}
+.bd-toc nav::-webkit-scrollbar-thumb:hover{background:#a0a0a0}@media (min-width: 992px)
+{.bd-toc nav:not(:hover){-ms-overflow-style:none}
+.bd-toc nav:not(:hover)::-webkit-scrollbar{background:#FFFFFF}
+.bd-toc nav:not(:hover)::-webkit-scrollbar-thumb{background:#FFFFFF}}
+.bd-toc nav a:hover,
+.bd-toc nav li.active>a.active{color:rgba(var(--pst-color-link), 1)}
+.bd-toc nav li.active>a.active{border-left:2px solid rgba(var(--pst-color-link), 1)}
+.bd-toc nav>.nav{border-left:1px solid #eee}
+.bd-toc nav>.nav .nav{border-left:none}
+.bd-toc:hover nav,.bd-toc.show nav{max-height:100vh;opacity:1;overflow-y:auto}
+.bd-toc:hover .tocsection:after,.bd-toc.show .tocsection:after{opacity:0}
+.bd-toc .tocsection{padding:.5rem 0 .5rem 1rem !important}
+.bd-toc .tocsection:after{content:"\f107";font-family:"Font Awesome 5 Free";font-weight:900;padding-left:.5em;transition:opacity .3s ease}
+.bd-toc .toc-entry a{padding:.125rem 1rem !important}
+.bd-toc div.editthispage{display:none} */
