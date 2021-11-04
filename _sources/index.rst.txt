@@ -10,9 +10,9 @@ Welcome to my writing samples page!
    :caption: Contents:
    :hidden:
 
-   document/CV_en
-   document/winapi_en
-   document/Encoding
+   CV_en
+   winapi_en
+   Encoding
 
 Here you can:
 

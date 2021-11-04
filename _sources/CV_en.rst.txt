@@ -1,4 +1,4 @@
-.. image:: ../_static/face.jpg
+.. image:: _static/face.jpg
 	:align: right
 	:scale: 13%
 
