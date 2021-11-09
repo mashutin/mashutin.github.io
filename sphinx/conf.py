@@ -16,7 +16,7 @@ import sys
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autosectionlabel']
+extensions = ['sphinx.ext.autosectionlabel','docxbuilder']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -93,6 +93,22 @@ html_sidebars = {
 
 #This one is intended to fix the search issue
 html_js_files = [ 'language_data.js']
+
+# -- Options for DOCX BUILDER ----------------------------------------------
+docx_documents = [
+    ('index-doc', 'Denis Mashutin.docx', {
+        'title': '',
+        'subject': '',
+        'category': '',
+        'keywords': '',
+        'company': '',
+        'contentStatus': '',
+        'creator': ''
+    }, True)
+]
+docx_style = './_word templates/4CV.docx'
+# docx_pagebreak_before_section = 0
+# docx_update_fields = True
 
 def setup(app):
     app.add_css_file("custom.css")

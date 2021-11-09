@@ -1,66 +1,89 @@
-.. image:: _static/face.jpg
-	:align: right
-	:scale: 13%
 
-===
-CV
-===
+.. only:: html
 
-**Denis Mashutin**
+   .. image:: _static/face.jpg
+      :align: right
+      :scale: 10%
 
-Phone **+7 910 615 25 75**	
+   ===
+   CV
+   ===
 
-E-mail **properevod@gmail.com**
+   **Denis Mashutin**
 
-Location: **Moscow**
+   Phone **+7 910 615 25 75**	
+
+   E-mail **properevod@gmail.com**
+
+   Location: **Moscow**
+
+.. only:: docx
+
+   .. list-table::
+      :widths: 70 20
+
+      *  -  **Denis Mashutin**
+
+            Phone **+7 910 615 25 75**	
+
+            E-mail **properevod@gmail.com**
+
+            Location: **Moscow**
+
+            Required position: **Technical Content Writer**
+
+            Job type: **Part-time / Freelance**
+
+         -  .. image:: _static/face.jpg
+               :align: right
+               :scale: 100%
+
 
 Skills and Attributes
 ---------------------
 
-*  Near native spoken and written English
+*  Near native spoken and written **English**
 
-*  Software development environment: Git, Azure DevOps, TFS, Confluence
+*  Software development environment: **Git, Azure DevOps, TFS, Confluence, Jira, Bitbucket**
 
-*  Experience writing SDK and API documentation
+*  Experience writing **SDK and API documentation**
 
-*  Docs-as-code workflow: Markdown, Sphinx, pandoc
+*  Docs-as-code workflow: **Markdown, RST, Sphinx, pandoc**
 
-*  Advanced spoken and written Arabic
+*  **Author-IT**, single source authoring
 
-*  XML-based authoring tools
+*  **Python** (NumPy, Tkinter, OOP, multiprocessing), **Bash**
 
-*  Python (NumPy, Tkinter, OOP, multiprocessing)
+*  Webflow, Figma
 
-*  Bash scripting
+*  Experience with virtualization (**VMware, VirtualBox**)
 
-*  Experience with virtualization (VMware, VirtualBox)
+*  Basic **SQL**
 
-*  Basic SQL
+*  Advanced **Arabic**
 
-*  Advanced Arabic
-
-Positions and Tasks
-----------------------------
+Positions and Accomplishments
+-------------------------------
 
 *  **2021—now—Technical Writing Lead @ CMA Small Systems AB**
 
-   *  Advocating and driving the transition to 'docs-as-code' approach
+   *  Driving the transition to 'docs-as-code' by using RST+Sphinx to provide for documentation reuse
 
-   *  Creating and maintaining the documentation repository
+   *  Building the dedicated git repository to bring the documentation together and under control
 
-   *  Mentoring and training technical writers
+   *  Helping technical writers to improve the quality of documents and switch from MS Word to 'docs-as-code'
 
 *  **2020—2021—Senior Technical Writer @ Kaspersky**
 	
-   *  Created and maintained documentation for SDK and B2B products
+   *  Improved the quality of documentation for SDK and B2B products by providing more detailed user scenarios to reduce the technical support costs
 
-   *  Developed Python scripts and tools for internal use
+   *  Managed the localization of documentation by using SmartCat to satisfy the requirements of a major client
 
-   *  Provided technical support to the users of internal tools
+   *  Used Python+Tkinter to develop GUI for an internal tool to make it usable by staff who are unfamiliar with CLI
 
 *  **2019—2020—Head of Documentation & Translation Dept @ STG Engineering**
 
-   *  Controlled the quality of technical documentation and translations
+   *  Improved the quality of translations by implementing SDL Trados, which led to a significant increase in consistency and speed
 
    *  Maintained technical documentation for equipment, plants, oil & gas wells
 
@@ -68,9 +91,9 @@ Positions and Tasks
 
 *  **2013—2018—Technical Translator @ Team of military engineers in UAE**
 
-   *  Developed a custom system for processing spare parts orders
+   *  Developed a custom system for processing spare parts orders by using Excel+VBA, which allowed to automate daily activities and prevent possible mistakes
 
-   *  Wrote user manuals for that system
+   *  Wrote manuals for that system to make it usable by other team members
 
    *  Kept track of provided services, managed everyday issues
 
