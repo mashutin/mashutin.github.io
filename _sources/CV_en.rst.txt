@@ -20,7 +20,7 @@
 .. only:: docx
 
    .. list-table::
-      :widths: 70 20
+      :widths: 60 20
 
       *  -  **Denis Mashutin**
 
@@ -33,6 +33,8 @@
             Required position: **Technical Content Writer**
 
             Job type: **Part-time / Freelance**
+
+            Portfolio: `mashutin.github.io <https://mashutin.github.io>`_
 
          -  .. image:: _static/face.jpg
                :align: right
@@ -54,7 +56,9 @@ Skills and Attributes
 
 *  **Python** (NumPy, Tkinter, OOP, multiprocessing), **Bash**
 
-*  Webflow, Figma
+*  **SDL Trados, Deja Vu, Smartcat**
+
+*  **Webflow, Figma**
 
 *  Experience with virtualization (**VMware, VirtualBox**)
 
