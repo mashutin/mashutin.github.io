@@ -25,7 +25,7 @@ extensions = ['sphinx.ext.autosectionlabel','docxbuilder']
 source_suffix = '.rst'
 
 # The master toctree document.
-master_doc = 'index'
+master_doc = 'index-doc'
 
 # Section label prefix
 # autosectionlabel_prefix_document = True
