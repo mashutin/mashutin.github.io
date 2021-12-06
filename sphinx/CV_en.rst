@@ -19,25 +19,24 @@
 
 .. only:: docx
 
+   CV
+   ===
+   
+   Denis Mashutin
+   ---------------
+
    .. list-table::
-      :widths: 60 20
+      :widths: 50 50
 
-      *  -  **Denis Mashutin**
-
-            Phone **+7 910 615 25 75**	
+      *  -  Phone **+7 910 615 25 75**	
 
             E-mail **properevod@gmail.com**
 
-            Location: **Moscow**
-
-            Required position: **Technical Writer**
-
             Portfolio: `mashutin.github.io <https://mashutin.github.io>`_
 
-         -  .. image:: _static/face.jpg
-               :align: right
-               :scale: 100%
-
+         -  Location: **Moscow**
+         
+            Required position: **Technical Writer**
 
 Skills and Attributes
 ---------------------
@@ -65,7 +64,7 @@ Skills and Attributes
 .. *  Advanced **Arabic**
 
 Positions and Accomplishments
--------------------------------
+-----------------------------
 
 **2021—now—Technical Writing Lead @ CMA Small Systems AB**
 
@@ -117,6 +116,6 @@ Positions and Accomplishments
 
 Education
 ---------
-2008 – Linguist, Arabic and English translator
+2008—Linguist, Arabic and English translator
 
 For the full list of courses and certifications, please visit my `LinkedIn profile <https://www.linkedin.com/in/denis-mashutin/>`_.
