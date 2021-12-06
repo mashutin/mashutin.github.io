@@ -30,7 +30,7 @@
 
             Location: **Moscow**
 
-            Required position: **Technical Writer**
+            Required position: **Quality Assurance Specialist (Russian or Arabic)**
 
             Portfolio: `mashutin.github.io <https://mashutin.github.io>`_
 
@@ -42,27 +42,17 @@
 Skills and Attributes
 ---------------------
 
-.. *  Near native spoken and written **English**
+*  Native **Russian**
 
-*  Experience writing **user manuals, SDK, and API documentation**
+*  Advanced **Arabic**
 
-*  Docs-as-code workflow: **Markdown, RST, Sphinx, pandoc**
-
-*  **Author-IT**, single source authoring
+*  Fluent **English**
 
 *  Software development environment: **Git, Azure DevOps, TFS, Confluence, Jira, Bitbucket**
 
 *  **Python** (NumPy, Tkinter, OOP, multiprocessing), **Bash**
 
 *  Localization tools: **SDL Trados, Deja Vu, Smartcat**
-
-*  **Webflow, Figma**
-
-*  Experience with virtualization (**VMware, VirtualBox**)
-
-*  Basic **SQL**
-
-.. *  Advanced **Arabic**
 
 Positions and Accomplishments
 -------------------------------
