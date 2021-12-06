@@ -30,7 +30,7 @@
 
             Location: **Moscow**
 
-            Required position: **Technical Content Writer**
+            Required position: **Technical Writer**
 
             Portfolio: `mashutin.github.io <https://mashutin.github.io>`_
 
@@ -101,7 +101,7 @@ Positions and Accomplishments
 
 *  **2013—2018—Technical Translator @ Engineering team in UAE**
 
-   *  Developed a custom system for processing spare parts orders by using Excel+VBA, which allowed to automate daily activities and prevent possible mistakes
+   *  Developed a custom system for processing spare parts orders by using Excel+VBA, which allowed automating daily activities and preventing possible mistakes
 
    *  Added 3,300 items to the system database
 
