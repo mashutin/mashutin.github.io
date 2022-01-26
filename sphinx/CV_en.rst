@@ -43,7 +43,7 @@ Skills and Attributes
 
 .. *  Near native spoken and written **English**
 
-*  Experience writing **user manuals, SDK, and API documentation**
+*  Experience writing **user manuals, SDK documentation, API documentation**
 
 *  Docs-as-code workflow: **Markdown, RST, Sphinx, pandoc**
 
