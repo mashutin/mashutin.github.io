@@ -33,7 +33,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Writing samples'
-copyright = '2021, Denis Mashutin'
+copyright = '2022, Denis Mashutin'
 # author = 'CMA Small Systems AB'
 
 # The version info for the project you're documenting, acts as replacement for
