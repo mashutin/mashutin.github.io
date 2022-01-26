@@ -25,7 +25,7 @@ extensions = ['sphinx.ext.autosectionlabel','docxbuilder']
 source_suffix = '.rst'
 
 # The master toctree document.
-master_doc = 'index-doc'
+master_doc = 'index'
 
 # Section label prefix
 # autosectionlabel_prefix_document = True
@@ -96,7 +96,7 @@ html_js_files = [ 'language_data.js']
 
 # -- Options for DOCX BUILDER ----------------------------------------------
 docx_documents = [
-    ('index-doc', 'Denis Mashutin.docx', {
+    ('index', 'Denis Mashutin.docx', {
         'title': '',
         'subject': '',
         'category': '',
