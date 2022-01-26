@@ -226,6 +226,10 @@
                 
   <div class="section" id="sample-api-documentation">
 <h1>Sample API documentation<a class="headerlink" href="#sample-api-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This sample is a part of a fictional API reference for the non-existent “SuperTrader” platform. It describes the API methods available for the ‘Account’ object.</p>
+</div>
 <div class="section" id="account">
 <h2>Account<a class="headerlink" href="#account" title="Permalink to this headline">¶</a></h2>
 <p>The Account object represents a trading account. An Account is owned by one user (Account Owner).</p>
@@ -257,7 +261,7 @@
 </div>
 <div class="section" id="request-example">
 <h4>Request example<a class="headerlink" href="#request-example" title="Permalink to this headline">¶</a></h4>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>curl -i -X GET “https://api.trader.com/1.0/accounts?limit=50” \
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>curl -i -X GET “https://api.supertrader.com/1.0/accounts?limit=50” \
    -H “Authorization: Bearer token12345”
 </pre></div>
 </div>
@@ -386,7 +390,7 @@
 </div>
 <div class="section" id="id1">
 <h4>Request example<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>curl -i -X PUT “https://api.trader.com/1.0/accounts/12345” \
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>curl -i -X PUT “https://api.supertrader.com/1.0/accounts/12345” \
    -H “Authorization: Bearer token12345” \
    -H “Content-Type”: application/json” \
    -d ‘{

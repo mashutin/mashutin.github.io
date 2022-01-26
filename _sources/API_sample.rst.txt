@@ -2,6 +2,10 @@
 Sample API documentation
 ========================
 
+.. note::
+
+   This sample is a part of a fictional API reference for the non-existent "SuperTrader" platform. It describes the API methods available for the 'Account' object.
+
 Account
 =======
 
@@ -29,7 +33,7 @@ Request example
 
 ::
 
-   curl -i -X GET “https://api.trader.com/1.0/accounts?limit=50” \
+   curl -i -X GET “https://api.supertrader.com/1.0/accounts?limit=50” \
       -H “Authorization: Bearer token12345”
 
 Response example
@@ -110,7 +114,7 @@ Request example
 
 ::
 
-   curl -i -X PUT “https://api.trader.com/1.0/accounts/12345” \
+   curl -i -X PUT “https://api.supertrader.com/1.0/accounts/12345” \
       -H “Authorization: Bearer token12345” \
       -H “Content-Type”: application/json” \
       -d ‘{
