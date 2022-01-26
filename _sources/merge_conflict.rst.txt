@@ -15,7 +15,7 @@ When you create a pull request for such branches in the web interface, you will 
 Finding the conflicting file
 ============================
 
-.. attention::
+.. important::
 
    In this article, we will use the following terms:
    
@@ -23,12 +23,12 @@ Finding the conflicting file
 
    *  **destination branch**—the branch you want to merge into (for example, the main branch)
 
-To find out, which file is conflicting, пo to your local repository and run the following commands::
+To find out, which file is conflicting, go to your local repository and run the following commands::
 
    $ git checkout <source branch>
    $ git pull origin <destination branch>
 
-You will get a message with the the name conflicting file.
+You will get a message with the name of the conflicting file.
 
 That can be a binary or a text file:
 
@@ -40,7 +40,7 @@ That can be a binary or a text file:
 
    Merge conflict in a text file
 
-Performs the steps described in the following sections depending on the type of the conflicting file.
+To resolve the conflict, perform the steps described in the following sections, depending on the type of the conflicting file.
 
 Merge conflict in a binary file
 ===============================
@@ -49,7 +49,7 @@ Merge conflict in a binary file
 
 #. Copy the conflicting file to any location outside the repository.
 
-   Later you will be able to compare it with its version in the destination branch and decide which version is preferred, or keep changes from both.
+   We will further refer to this copy as the **backup version**.
 
 #. Run ``git status`` and copy the path to the conflicting file:
 
@@ -63,20 +63,26 @@ Merge conflict in a binary file
 
    .. figure:: _static/checkout_theirs.png
 
-   The file from the **destination branch** will be saved, and the file from the **source branch** will be ignored (but we will still have its copy from step 1).
+   The file from the **destination branch** will be saved, and the file from the **source branch** will be ignored (but we will still have the backup version from step 1).
 
 #. Run the following commands::
 
       $ git commit -m "Resolved merge conflict"
       $ git push origin HEAD
 
-#. Go to the pull request page in the web interface.
+#. Open the pull request page in the web interface.
 
    The warning will disappear, and the pull request will become available for merge.
 
 #. Merge the pull request.
 
-After merging the pull request you may compare the file in the destination branch with the saved copy from the source branch. If the file from the source branch is newer, and you want to add it to the destination branch, replace the file and perform commit & push.
+#. Compare the file in repository with the backup version:
+
+   *  If the backup version is newer, and you want to have it in the destination branch, replace the file, and then perform commit & push.
+
+   *  If both files contain required changes, copy the changes from the backup version to the file in the repository, and then perform commit & push.
+
+   *  If the backup version doesn't contain any required changes, do nothing.
 
 Merge conflict in a text file
 =============================
@@ -109,6 +115,8 @@ Merge conflict in a text file
       $ git commit -m "Resolved merge conflict"
       $ git push origin HEAD
 
-#. Go to the pull request page in the web interface.
+#. Open the pull request page in the web interface.
 
    The warning will disappear, and the pull request will become available for merge.
+
+#. Merge the pull request.
