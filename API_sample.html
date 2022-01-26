@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample API documentation &#8212; Writing Samples</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Encoding Unicode: UTF-8 vs. UTF-16" href="Encoding.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/tpwrtr.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Writing Samples</h1>
+      
+    </a>
+</div><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p class="caption" role="heading">
+ <span class="caption-text">
+  Contents:
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="CV_en.html">
+   CV
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="winapi_en.html">
+   How to Interact with Windows API Functions in PowerShell
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Encoding.html">
+   Encoding Unicode: UTF-8 vs. UTF-16
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Sample API documentation
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> ON THIS PAGE
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#account">
+   Account
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#getting-a-list-of-accounts">
+     Getting a list of accounts
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#query-string-parameters">
+       Query string parameters
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#request-example">
+       Request example
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#response-example">
+       Response example
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modifying-an-account">
+     Modifying an account
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#path-parameters">
+       Path parameters
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#request-body">
+       Request body
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Request example
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id2">
+       Response example
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="sample-api-documentation">
+<h1>Sample API documentation<a class="headerlink" href="#sample-api-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="account">
+<h2>Account<a class="headerlink" href="#account" title="Permalink to this headline">¶</a></h2>
+<p>The Account object represents a trading account. An Account is owned by one user (Account Owner).</p>
+<div class="section" id="getting-a-list-of-accounts">
+<h3>Getting a list of accounts<a class="headerlink" href="#getting-a-list-of-accounts" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">GET /accounts</dt>
+<dd class="field-odd"><p>Returns a list of all trading accounts with their details.</p>
+</dd>
+</dl>
+<div class="section" id="query-string-parameters">
+<h4>Query string parameters<a class="headerlink" href="#query-string-parameters" title="Permalink to this headline">¶</a></h4>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head stub"><p>Parameter</p></th>
+<th class="head"><p>Required/Optional</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Data type</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><th class="stub"><p>limit</p></th>
+<td><p>optional</p></td>
+<td><p>The maximum number of accounts to return.</p></td>
+<td><p>integer</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="request-example">
+<h4>Request example<a class="headerlink" href="#request-example" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>curl -i -X GET “https://api.cbroker.com/1.0/accounts?limit=50” \
+   -H “Authorization: Bearer token12345”
+</pre></div>
+</div>
+</div>
+<div class="section" id="response-example">
+<h4>Response example<a class="headerlink" href="#response-example" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+   <span class="nt">&quot;entries&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+         <span class="nt">&quot;account_id&quot;</span><span class="p">:</span> <span class="mi">12345</span><span class="p">,</span>
+         <span class="nt">&quot;account&quot;</span><span class="p">:</span> <span class="mi">5432674321</span><span class="p">,</span>
+         <span class="nt">&quot;online&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+         <span class="nt">&quot;account_status&quot;</span><span class="p">:</span> <span class="s2">&quot;demo&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Denis&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;last_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Mashutin&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;city&quot;</span><span class="p">:</span> <span class="s2">&quot;Moscow&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;state&quot;</span><span class="p">:</span> <span class="s2">&quot;Moscow&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;country&quot;</span><span class="p">:</span> <span class="s2">&quot;Russia&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;post_code&quot;</span><span class="p">:</span> <span class="mi">108842</span><span class="p">,</span>
+         <span class="nt">&quot;comment&quot;</span><span class="p">:</span> <span class="s2">&quot;Very good account&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+         <span class="nt">&quot;account_id&quot;</span><span class="p">:</span> <span class="mi">98765</span><span class="p">,</span>
+         <span class="nt">&quot;account&quot;</span><span class="p">:</span> <span class="mi">456353535</span><span class="p">,</span>
+         <span class="nt">&quot;online&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+         <span class="nt">&quot;account_status&quot;</span><span class="p">:</span> <span class="s2">&quot;demo&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Denis&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;last_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Mashutin&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;city&quot;</span><span class="p">:</span> <span class="s2">&quot;Scherbinka&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;state&quot;</span><span class="p">:</span> <span class="s2">&quot;Moscow&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;country&quot;</span><span class="p">:</span> <span class="s2">&quot;Russia&quot;</span><span class="p">,</span>
+         <span class="nt">&quot;post_code&quot;</span><span class="p">:</span> <span class="mi">101621</span><span class="p">,</span>
+         <span class="nt">&quot;comment&quot;</span><span class="p">:</span> <span class="s2">&quot;Even better account&quot;</span>
+      <span class="p">}</span>
+   <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="modifying-an-account">
+<h3>Modifying an account<a class="headerlink" href="#modifying-an-account" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">PUT /accounts/{account_id}</dt>
+<dd class="field-odd"><p>Modifies the account by updating its details. Returns the updated account details.</p>
+</dd>
+</dl>
+<div class="section" id="path-parameters">
+<h4>Path parameters<a class="headerlink" href="#path-parameters" title="Permalink to this headline">¶</a></h4>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head stub"><p>Path parameter</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><th class="stub"><p>{account_id}</p></th>
+<td><p>The ID of the account that you want to modify.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="request-body">
+<h4>Request body<a class="headerlink" href="#request-body" title="Permalink to this headline">¶</a></h4>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head stub"><p>Field</p></th>
+<th class="head"><p>Required/Optional</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Data type</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><th class="stub"><p>online</p></th>
+<td><p>optional</p></td>
+<td><p>Specifies if the account is displayed as online.</p></td>
+<td><p>boolean</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>account</p></th>
+<td><p>optional</p></td>
+<td><p>The number of the trading account.</p></td>
+<td><p>integer/uint</p></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>account_status</p></th>
+<td><p>optional</p></td>
+<td><p>The Access Rights type of the account.</p></td>
+<td><p>string</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>name</p></th>
+<td><p>optional</p></td>
+<td><p>The first name of the account owner.</p></td>
+<td><p>string</p></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>last_name</p></th>
+<td><p>optional</p></td>
+<td><p>The last name of the account owner.</p></td>
+<td><p>string</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>city</p></th>
+<td><p>optional</p></td>
+<td><p>The city of residence of the account owner.</p></td>
+<td><p>string</p></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>state</p></th>
+<td><p>optional</p></td>
+<td><p>The state of residence of the account owner.</p></td>
+<td><p>string</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>country</p></th>
+<td><p>optional</p></td>
+<td><p>The country of residence of the account owner.</p></td>
+<td><p>string</p></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>post_code</p></th>
+<td><p>optional</p></td>
+<td><p>The postal code of the account owner.</p></td>
+<td><p>integer/uint</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>comment</p></th>
+<td><p>optional</p></td>
+<td><p>The text of the admin comment.</p></td>
+<td><p>string</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id1">
+<h4>Request example<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>curl -i -X PUT “https://api.cbroker.com/1.0/accounts/12345” \
+   -H “Authorization: Bearer token12345” \
+   -H “Content-Type”: application/json” \
+   -d ‘{
+      “comment”: “The best account ever!”
+   }’
+</pre></div>
+</div>
+</div>
+<div class="section" id="id2">
+<h4>Response example<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+   <span class="nt">&quot;account_id&quot;</span><span class="p">:</span> <span class="mi">12345</span><span class="p">,</span>
+   <span class="nt">&quot;account&quot;</span><span class="p">:</span> <span class="mi">5432674321</span><span class="p">,</span>
+   <span class="nt">&quot;online&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+   <span class="nt">&quot;account_status&quot;</span><span class="p">:</span> <span class="s2">&quot;demo&quot;</span><span class="p">,</span>
+   <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Denis&quot;</span><span class="p">,</span>
+   <span class="nt">&quot;last_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Mashutin&quot;</span><span class="p">,</span>
+   <span class="nt">&quot;city&quot;</span><span class="p">:</span> <span class="s2">&quot;Moscow&quot;</span><span class="p">,</span>
+   <span class="nt">&quot;state&quot;</span><span class="p">:</span> <span class="s2">&quot;Moscow&quot;</span><span class="p">,</span>
+   <span class="nt">&quot;country&quot;</span><span class="p">:</span> <span class="s2">&quot;Russia&quot;</span><span class="p">,</span>
+   <span class="nt">&quot;post_code&quot;</span><span class="p">:</span> <span class="mi">108842</span><span class="p">,</span>
+   <span class="nt">&quot;comment&quot;</span><span class="p">:</span> <span class="s2">&quot;The best account ever!&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="Encoding.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Encoding Unicode: UTF-8 vs. UTF-16</p>
+            </div>
+        </a>
+    </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+            &copy; Copyright 2021, Denis Mashutin<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

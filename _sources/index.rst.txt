@@ -13,6 +13,7 @@ Welcome to my writing samples page!
    CV_en
    winapi_en
    Encoding
+   API_sample
 
 Here you can:
 
@@ -23,4 +24,6 @@ Here you can:
    #. :ref:`How to Interact with Windows API Functions in PowerShell`
 
    #. :ref:`Encoding Unicode: UTF-8 vs. UTF-16`
+   
+   #. :ref:`Sample API documentation`
 
