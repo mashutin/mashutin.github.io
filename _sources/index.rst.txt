@@ -14,6 +14,7 @@ Welcome to my writing samples page!
    winapi_en
    Encoding
    API_sample
+   merge_conflict
 
 Here you can:
 
@@ -26,4 +27,6 @@ Here you can:
    #. :ref:`Encoding Unicode: UTF-8 vs. UTF-16`
    
    #. :ref:`Sample API documentation`
+
+   #. :ref:`How to Resolve a Merge Conflict`
 
