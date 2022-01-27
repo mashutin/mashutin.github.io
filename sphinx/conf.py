@@ -85,7 +85,8 @@ html_title = 'Writing Samples'
 html_theme_options = {
    "show_navbar_depth": 1,
    "toc_title": "ON THIS PAGE",
-   "extra_navbar":""
+   "extra_navbar":"",
+   "logo_only": True
 }
 html_sidebars = {
    "**": ["sidebar-logo.html", "sbt-sidebar-nav.html", "sbt-sidebar-footer.html"]
