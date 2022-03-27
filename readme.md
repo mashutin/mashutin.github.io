@@ -1,19 +1,13 @@
-.. image:: _static/face.jpg
-   :align: right
-   :scale: 10%
-
 CV
 ===
 
 **DENIS MASHUTIN**
 
+Location: **Alanya, Antalya, Turkey**
+
 Phone **+7 910 615 25 75**	
 
 E-mail **properevod@gmail.com**
-
-Location: **Alanya, Antalya, Turkey**
-
-.. main-info
 
 Skills and Attributes
 ---------------------

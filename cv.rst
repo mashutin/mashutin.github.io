@@ -18,4 +18,4 @@ Denis Mashutin
          Required position: **Technical Writer**
 
 .. include:: readme.md
-   :start-after: main-info
+   :start-after: gmail.com**
