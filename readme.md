@@ -79,4 +79,4 @@ Education
 ---------
 2008—Linguist, Arabic and English translator
 
-For the full list of courses and certifications, please visit my LinkedIn profile at https://www.linkedin.com/in/denis-mashutin.
+For the full list of courses and certifications, please visit my `LinkedIn profile <https://www.linkedin.com/in/denis-mashutin>`_.
