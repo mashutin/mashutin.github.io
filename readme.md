@@ -48,8 +48,6 @@ Positions and Accomplishments
 *  Converted the source of documentation from DOCX into RST in 16 projects
 
 **2020—2021—Senior Technical Writer @ Kaspersky**
-	
-*  Improved the quality of documentation for SDK and B2B products by providing more detailed user scenarios to reduce the technical support costs
 
 *  Updated and maintained the documentation for 3 independent B2B products
 
