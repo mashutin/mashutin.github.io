@@ -1,47 +1,5 @@
-
-.. only:: html
-
-   .. image:: _static/face.jpg
-      :align: right
-      :scale: 10%
-
-   ===
-   CV
-   ===
-
-   **DENIS MASHUTIN**
-
-   Phone **+7 910 615 25 75**	
-
-   E-mail **properevod@gmail.com**
-
-   Location: **Alanya, Antalya, Turkey**
-
-.. only:: docx
-
-   CV
-   ===
-   
-   Denis Mashutin
-   ---------------
-
-   .. list-table::
-      :widths: 50 50
-
-      *  -  Phone **+7 910 615 25 75**	
-
-            E-mail **properevod@gmail.com**
-
-            Portfolio: `mashutin.github.io <https://mashutin.github.io>`_
-
-         -  Location: **Alanya, Antalya, Turkey**
-         
-            Required position: **Technical Writer**
-
 Skills and Attributes
 ---------------------
-
-.. *  Near native spoken and written **English**
 
 *  Experience writing **user manuals, SDK documentation, API documentation**
 
@@ -59,8 +17,6 @@ Skills and Attributes
 
 *  Virtualization: **VMware, VirtualBox, Vagrant**
 
-.. *  Advanced **Arabic**
-
 Positions and Accomplishments
 -----------------------------
 
@@ -74,15 +30,11 @@ Positions and Accomplishments
 
 *  Developed the knowledge base of ~ 30 articles and created a step-by-step training/onboarding plan
 
-.. *  Drove the transition to docs-as-code by using RST+Sphinx to provide for documentation reuse
-
 *  Created and delivered a training course which included, alongside with docs-as-code training sessions, the workshops on English grammar and the principles of plain English
 
 *  Trained a team of 3 technical writers to use docs-as-code tools in 5 months
 
 *  Converted the source of documentation from DOCX into RST in 16 projects
-
-.. *  Helping technical writers to improve the quality of documents and switch from MS Word to docs-as-code
 
 **2020—2021—Senior Technical Writer @ Kaspersky**
 	
@@ -113,12 +65,6 @@ Positions and Accomplishments
 *  Wrote manuals for that system to make it usable by other team members (30 users)
 
 *  Kept track of provided services, managed everyday issues
-
-.. **2008—2013—Translator @ Higher Military School in Algeria**
-
-..  *  Provided translation during classes
-
-..  *  Translated PowerPoint presentations
 
 Education
 ---------
