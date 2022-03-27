@@ -9,13 +9,13 @@
    CV
    ===
 
-   **Denis Mashutin**
+   **DENIS MASHUTIN**
 
    Phone **+7 910 615 25 75**	
 
    E-mail **properevod@gmail.com**
 
-   Location: **Moscow**
+   Location: **Alanya, Antalya, Turkey**
 
 .. only:: docx
 
@@ -34,7 +34,7 @@
 
             Portfolio: `mashutin.github.io <https://mashutin.github.io>`_
 
-         -  Location: **Moscow**
+         -  Location: **Alanya, Antalya, Turkey**
          
             Required position: **Technical Writer**
 
@@ -47,19 +47,17 @@ Skills and Attributes
 
 *  Docs-as-code workflow: **Markdown, RST, Sphinx, pandoc**
 
-*  **Author-IT**, single source authoring
+*  Authoring tools: **Author-IT, Visual Studio Code, MS Word**
 
-*  Software development environment: **Git, Azure DevOps, TFS, Confluence, Jira, Bitbucket**
+*  Software development environment: **Git, TFS, Confluence, Jira, Bitbucket**
 
-*  **Python** (NumPy, Tkinter, OOP, multiprocessing), **Bash**
+*  Automation: **Python**, **Bash**, **Selenium**
 
 *  Localization tools: **SDL Trados, Deja Vu, Smartcat**
 
-*  **Webflow, Figma**
+*  Diagrams & visual design: **Figma, Visual Paradigm, draw.io, MS PowerPoint**
 
-*  Experience with virtualization (**VMware, VirtualBox**)
-
-*  Basic **SQL**
+*  Virtualization: **VMware, VirtualBox, Vagrant**
 
 .. *  Advanced **Arabic**
 
@@ -68,15 +66,21 @@ Positions and Accomplishments
 
 **2021—now—Technical Writing Lead @ CMA Small Systems AB**
 
-*  Driving the transition to docs-as-code by using RST+Sphinx to provide for documentation reuse
+*  Designed and implemented a complete docs-as-code framework by using pandoc, Sphinx, python, and bash scripts
 
-*  Converted the documentation from DOCX into RST in 16 projects
+*  Built a dedicated repository for documentation and developed the workflow by combining GitFlow and Trunk-Based strategies
 
-*  Building the dedicated git repository to bring the documentation together and under control
+*  Developed the knowledge base of ~ 30 articles and created a step-by-step training/onboarding plan
 
-*  Helping technical writers to improve the quality of documents and switch from MS Word to docs-as-code
+.. *  Drove the transition to docs-as-code by using RST+Sphinx to provide for documentation reuse
 
 *  Trained a team of 3 technical writers to use docs-as-code tools in 5 months
+
+*  Developed an automation solution reducing the time required to prepare the full set of user documentation from 1 week to 1 day
+
+*  Converted the source of documentation from DOCX into RST in 16 projects
+
+.. *  Helping technical writers to improve the quality of documents and switch from MS Word to docs-as-code
 
 **2020—2021—Senior Technical Writer @ Kaspersky**
 	
