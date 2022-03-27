@@ -1,3 +1,20 @@
+.. image:: _static/face.jpg
+   :align: right
+   :scale: 10%
+
+CV
+===
+
+**DENIS MASHUTIN**
+
+Phone **+7 910 615 25 75**	
+
+E-mail **properevod@gmail.com**
+
+Location: **Alanya, Antalya, Turkey**
+
+.. main-info
+
 Skills and Attributes
 ---------------------
 
@@ -70,4 +87,4 @@ Education
 ---------
 2008—Linguist, Arabic and English translator
 
-For the full list of courses and certifications, please visit my `LinkedIn profile <https://www.linkedin.com/in/denis-mashutin/>`_.
+For the full list of courses and certifications, please visit my LinkedIn profile at https://www.linkedin.com/in/denis-mashutin.

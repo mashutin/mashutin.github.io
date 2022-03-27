@@ -10,11 +10,11 @@ Welcome to my writing samples page!
    :caption: Contents:
    :hidden:
 
-   CV_en
-   winapi_en
-   Encoding
-   API_sample
-   merge_conflict
+   readme
+   how to interact with win api
+   encoding unicode
+   api ref sample
+   how to resolve a merge conflict
 
 Here you can:
 
