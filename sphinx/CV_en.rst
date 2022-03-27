@@ -68,15 +68,17 @@ Positions and Accomplishments
 
 *  Designed and implemented a complete docs-as-code framework by using pandoc, Sphinx, python, and bash scripts
 
+*  Developed an automation solution reducing the time required to prepare the full set of user documentation from 1 week to 1 day
+
 *  Built a dedicated repository for documentation and developed the workflow by combining GitFlow and Trunk-Based strategies
 
 *  Developed the knowledge base of ~ 30 articles and created a step-by-step training/onboarding plan
 
 .. *  Drove the transition to docs-as-code by using RST+Sphinx to provide for documentation reuse
 
-*  Trained a team of 3 technical writers to use docs-as-code tools in 5 months
+*  Created and delivered a training course which included, alongside with docs-as-code training sessions, the workshops on English grammar and the principles of plain English
 
-*  Developed an automation solution reducing the time required to prepare the full set of user documentation from 1 week to 1 day
+*  Trained a team of 3 technical writers to use docs-as-code tools in 5 months
 
 *  Converted the source of documentation from DOCX into RST in 16 projects
 
