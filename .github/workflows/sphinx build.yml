@@ -74,4 +74,4 @@ jobs:
         with:
           branch: main
           directory: docs/
-          github_token: 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
+          github_token: ${{ secrets.GITHUB_TOKEN }}
