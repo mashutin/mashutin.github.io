@@ -57,7 +57,7 @@ jobs:
           
       - name: Commit documentation changes
         run: |
-          git clone https://github.com/mashutin/mashutin.github.io.git --branch main
+          git clone https://github.com/mashutin/mashutin.github.io.git --branch gh-pages
           rm -rf docs/
           mkdir docs
           cp -r _build/* docs/
@@ -72,6 +72,6 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          branch: main
+          branch: gh-pages
           directory: docs/
           github_token: ${{ secrets.GITHUB_TOKEN }}
