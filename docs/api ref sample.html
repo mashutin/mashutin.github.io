@@ -4,8 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sample API documentation &#8212; Writing Samples</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
@@ -229,23 +228,23 @@
         
               <div>
                 
-  <section id="sample-api-documentation">
+  <div class="section" id="sample-api-documentation">
 <h1>Sample API documentation<a class="headerlink" href="#sample-api-documentation" title="Permalink to this headline">¶</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This sample is a part of a fictional API reference for the non-existent “SuperTrader” platform. It describes the API methods available for the ‘Account’ object.</p>
 </div>
-<section id="account">
+<div class="section" id="account">
 <h2>Account<a class="headerlink" href="#account" title="Permalink to this headline">¶</a></h2>
 <p>The Account object represents a trading account. An Account is owned by one user (Account Owner).</p>
-<section id="getting-a-list-of-accounts">
+<div class="section" id="getting-a-list-of-accounts">
 <h3>Getting a list of accounts<a class="headerlink" href="#getting-a-list-of-accounts" title="Permalink to this headline">¶</a></h3>
 <dl class="field-list simple">
 <dt class="field-odd">GET /accounts</dt>
 <dd class="field-odd"><p>Returns a list of all trading accounts with their details.</p>
 </dd>
 </dl>
-<section id="query-string-parameters">
+<div class="section" id="query-string-parameters">
 <h4>Query string parameters<a class="headerlink" href="#query-string-parameters" title="Permalink to this headline">¶</a></h4>
 <table class="colwidths-auto table">
 <thead>
@@ -263,15 +262,15 @@
 </tr>
 </tbody>
 </table>
-</section>
-<section id="request-example">
+</div>
+<div class="section" id="request-example">
 <h4>Request example<a class="headerlink" href="#request-example" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>curl -i -X GET “https://api.supertrader.com/1.0/accounts?limit=50” \
    -H “Authorization: Bearer token12345”
 </pre></div>
 </div>
-</section>
-<section id="response-example">
+</div>
+<div class="section" id="response-example">
 <h4>Response example<a class="headerlink" href="#response-example" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="w"></span>
 <span class="w">   </span><span class="nt">&quot;entries&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
@@ -282,10 +281,10 @@
 <span class="w">         </span><span class="nt">&quot;account_status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;demo&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">         </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Denis&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">         </span><span class="nt">&quot;last_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Mashutin&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">         </span><span class="nt">&quot;city&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Moscow&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">         </span><span class="nt">&quot;state&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Moscow&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">         </span><span class="nt">&quot;country&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Russia&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">         </span><span class="nt">&quot;post_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">108842</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;city&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Alanya&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;state&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Antalya&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;country&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Turkey&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;post_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">07400</span><span class="p">,</span><span class="w"></span>
 <span class="w">         </span><span class="nt">&quot;comment&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Very good account&quot;</span><span class="w"></span>
 <span class="w">      </span><span class="p">},</span><span class="w"></span>
 <span class="w">      </span><span class="p">{</span><span class="w"></span>
@@ -295,26 +294,26 @@
 <span class="w">         </span><span class="nt">&quot;account_status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;demo&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">         </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Denis&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">         </span><span class="nt">&quot;last_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Mashutin&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">         </span><span class="nt">&quot;city&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Scherbinka&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">         </span><span class="nt">&quot;state&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Moscow&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">         </span><span class="nt">&quot;country&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Russia&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">         </span><span class="nt">&quot;post_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">101621</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;city&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Antalya&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;state&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Antalya&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;country&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Turkey&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">         </span><span class="nt">&quot;post_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">07070</span><span class="p">,</span><span class="w"></span>
 <span class="w">         </span><span class="nt">&quot;comment&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Even better account&quot;</span><span class="w"></span>
 <span class="w">      </span><span class="p">}</span><span class="w"></span>
 <span class="w">   </span><span class="p">]</span><span class="w"></span>
 <span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
-</section>
-</section>
-<section id="modifying-an-account">
+</div>
+</div>
+<div class="section" id="modifying-an-account">
 <h3>Modifying an account<a class="headerlink" href="#modifying-an-account" title="Permalink to this headline">¶</a></h3>
 <dl class="field-list simple">
 <dt class="field-odd">PUT /accounts/{account_id}</dt>
 <dd class="field-odd"><p>Modifies the account by updating its details. Returns the updated account details.</p>
 </dd>
 </dl>
-<section id="path-parameters">
+<div class="section" id="path-parameters">
 <h4>Path parameters<a class="headerlink" href="#path-parameters" title="Permalink to this headline">¶</a></h4>
 <table class="colwidths-auto table">
 <thead>
@@ -328,8 +327,8 @@
 </tr>
 </tbody>
 </table>
-</section>
-<section id="request-body">
+</div>
+<div class="section" id="request-body">
 <h4>Request body<a class="headerlink" href="#request-body" title="Permalink to this headline">¶</a></h4>
 <table class="colwidths-auto table">
 <thead>
@@ -392,8 +391,8 @@
 </tr>
 </tbody>
 </table>
-</section>
-<section id="id1">
+</div>
+<div class="section" id="id1">
 <h4>Request example<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>curl -i -X PUT “https://api.supertrader.com/1.0/accounts/12345” \
    -H “Authorization: Bearer token12345” \
@@ -403,8 +402,8 @@
    }’
 </pre></div>
 </div>
-</section>
-<section id="id2">
+</div>
+<div class="section" id="id2">
 <h4>Response example<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="w"></span>
 <span class="w">   </span><span class="nt">&quot;account_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">12345</span><span class="p">,</span><span class="w"></span>
@@ -413,18 +412,18 @@
 <span class="w">   </span><span class="nt">&quot;account_status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;demo&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">   </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Denis&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">   </span><span class="nt">&quot;last_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Mashutin&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">   </span><span class="nt">&quot;city&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Moscow&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">   </span><span class="nt">&quot;state&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Moscow&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">   </span><span class="nt">&quot;country&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Russia&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">   </span><span class="nt">&quot;post_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">108842</span><span class="p">,</span><span class="w"></span>
+<span class="w">   </span><span class="nt">&quot;city&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Alanya&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">   </span><span class="nt">&quot;state&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Antalya&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">   </span><span class="nt">&quot;country&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Turkey&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">   </span><span class="nt">&quot;post_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">07400</span><span class="p">,</span><span class="w"></span>
 <span class="w">   </span><span class="nt">&quot;comment&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The best account ever!&quot;</span><span class="w"></span>
 <span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
-</section>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
+</div>
 
 
               </div>

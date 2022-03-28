@@ -50,10 +50,10 @@ Response example
             "account_status": "demo",
             "name": "Denis",
             "last_name": "Mashutin",
-            "city": "Moscow",
-            "state": "Moscow",
-            "country": "Russia",
-            "post_code": 108842,
+            "city": "Alanya",
+            "state": "Antalya",
+            "country": "Turkey",
+            "post_code": 07400,
             "comment": "Very good account"
          },
          {
@@ -63,10 +63,10 @@ Response example
             "account_status": "demo",
             "name": "Denis",
             "last_name": "Mashutin",
-            "city": "Scherbinka",
-            "state": "Moscow",
-            "country": "Russia",
-            "post_code": 101621,
+            "city": "Antalya",
+            "state": "Antalya",
+            "country": "Turkey",
+            "post_code": 07070,
             "comment": "Even better account"
          }
       ]
@@ -133,9 +133,9 @@ Response example
       "account_status": "demo",
       "name": "Denis",
       "last_name": "Mashutin",
-      "city": "Moscow",
-      "state": "Moscow",
-      "country": "Russia",
-      "post_code": 108842,
+      "city": "Alanya",
+      "state": "Antalya",
+      "country": "Turkey",
+      "post_code": 07400,
       "comment": "The best account ever!"
    }
