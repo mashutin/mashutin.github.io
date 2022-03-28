@@ -1,2 +1,2 @@
-sphinx-book-theme
+sphinx-book-theme==0.1.5
 docxbuilder==1.2.0
