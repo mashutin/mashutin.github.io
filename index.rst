@@ -13,6 +13,7 @@ Welcome to my writing samples page!
    readme
    how to interact with win api
    encoding unicode
+   api ref sample
    how to resolve a merge conflict
 
 Here you can:
