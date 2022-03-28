@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ammaraskar/sphinx-action@master
         with:
-          build-command: "sphinx-build -b html . _build"
+          build-command: "sphinx-build . _build"
           docs-folder: "./"
       - name: Commit documentation changes
         run: |
