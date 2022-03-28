@@ -58,7 +58,7 @@ jobs:
       - name: Commit documentation changes
         run: |
           git clone https://github.com/mashutin/mashutin.github.io.git --branch main --single-branch docs
-          rm -r docs/
+          rm -rf docs/
           cp -r _build/* docs/
           cd docs
           touch .nojekyll
