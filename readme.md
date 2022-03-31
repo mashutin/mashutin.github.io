@@ -20,7 +20,7 @@ Skills and Attributes
 
 *  Software development environment: **Git, TFS, Confluence, Jira, Bitbucket, GitHub Actions**
 
-*  Automation: **Python**, **Bash**, **Selenium**
+*  Automation: **Python**, **Bash**, **Selenium**, **XPATH**
 
 *  Localization tools: **SDL Trados, Deja Vu, Smartcat**
 
