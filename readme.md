@@ -16,11 +16,11 @@ Skills and Attributes
 
 *  Docs-as-code workflow: **Markdown, RST, Sphinx, pandoc**
 
-*  Authoring tools: **Author-IT, Visual Studio Code, MS Word**
+*  Authoring tools: **Author-IT, VSCode, Confluence, MS Word**
 
-*  Software development environment: **Git, TFS, Confluence, Jira, Bitbucket, GitHub Actions**
+*  Software development environment: **Git, Bitbucket, TFS, Jira**
 
-*  Automation: **Python**, **Bash**, **Selenium**, **XPATH**
+*  Automation: **Python, Bash, Selenium, XPATH, GitHub Actions, Jenkins, webhooks**
 
 *  Localization tools: **SDL Trados, Deja Vu, Smartcat**
 
