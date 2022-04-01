@@ -18,7 +18,7 @@ Skills and Attributes
 
 *  Authoring tools: **Author-IT, VSCode, Confluence, MS Word**
 
-*  Software development environment: **Git, Bitbucket, TFS, Jira**
+*  Software development environment: **git, Bitbucket, Jira, TFS, Azure DevOps**
 
 *  Automation: **Python, Bash, Selenium, XPATH, GitHub Actions, Jenkins, webhooks**
 
