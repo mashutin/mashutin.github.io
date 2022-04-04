@@ -3,7 +3,7 @@ CV
 
 **DENIS MASHUTIN**
 
-Location: **Alanya, Antalya, Turkey**
+Location: **Alanya, Antalya, Turkey** (planned relocation to Germany)
 
 Phone **+7 910 615 25 75**	
 
@@ -39,7 +39,7 @@ Positions and Accomplishments
 
 *  Built a dedicated repository for documentation and developed the workflow by combining GitFlow and Trunk-Based strategies
 
-*  Developed the knowledge base of ~ 30 articles and created a step-by-step training/onboarding plan
+*  Deployed a Jenkins server and created CI pipelines for online documentation
 
 *  Created and delivered a training course which included, alongside with docs-as-code training sessions, the workshops on English grammar and the principles of plain English
 
@@ -51,7 +51,7 @@ Positions and Accomplishments
 
 *  Updated and maintained the documentation for 3 independent B2B products
 
-*  Managed the localization of a user manual (120,000 words) by using SmartCat to satisfy the requirements of a major client
+*  Edited, proofread, and tested UI texts
 
 *  Used Python+Tkinter to develop GUI for an internal tool with more than 100 users to make it usable by staff who are unfamiliar with CLI
 
