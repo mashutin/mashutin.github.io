@@ -3,7 +3,7 @@ CV
 
 **DENIS MASHUTIN**
 
-Location: **Alanya, Antalya, Turkey** (planned relocation to Germany)
+Location: **Alanya, Antalya, Turkey**
 
 Phone **+7 910 615 25 75**	
 

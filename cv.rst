@@ -10,7 +10,7 @@ Denis Mashutin
 
       -  Location: **Alanya, Antalya, Turkey**
       
-         Required position: **Technical Writer**
+         Planned relocation to Germany
 
       -  Portfolio: `mashutin.github.io <https://mashutin.github.io>`_
 
