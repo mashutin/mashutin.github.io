@@ -51,9 +51,9 @@ Positions and Accomplishments
 
 *  Updated and maintained the documentation for 3 independent B2B products
 
-*  Edited, proofread, and tested UI texts
+*  Tested the API of an enterprise security product by using Postman, and then updated its documentation
 
-*  Used Python+Tkinter to develop GUI for an internal tool with more than 100 users to make it usable by staff who are unfamiliar with CLI
+*  Developed GUI for an internal tool with more than 100 users to make it usable by staff who are unfamiliar with CLI
 
 **2019—2020—Head of Documentation & Translation Dept @ STG Engineering**
 
