@@ -51,7 +51,7 @@ Positions and Accomplishments
 
 *  Updated and maintained the documentation for 3 independent B2B products
 
-*  Tested the API of an enterprise security product by using Postman, and then updated its documentation
+*  Tested the API of an enterprise security product by using Postman, resulting in major documentation update
 
 *  Developed GUI for an internal tool with more than 100 users to make it usable by staff who are unfamiliar with CLI
 
