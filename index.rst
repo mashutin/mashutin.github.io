@@ -27,6 +27,6 @@ Or check out some sample articles:
 
 #. :ref:`How to Resolve a Merge Conflict`
 
-.. image:: https://img.shields.io/endpoint?url=https://api.anayak.com.np/vcnt/?IDV=mashutin-samples-index%26%26COLOR=yellow
-   :alt: counter
-
+.. image:: https://img.shields.io/endpoint?url=https://api.anayak.com.np/vcnt/?ID=mashutin-samples-index%26%26COLOR=yellow
+   :alt: web counter
+   :align: right
