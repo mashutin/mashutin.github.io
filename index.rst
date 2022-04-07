@@ -30,4 +30,4 @@ Or check out some sample articles:
 
 .. raw:: html
 
-   <img src="https://img.shields.io/endpoint?url=https://api.anayak.com.np/vcnt/?IDV=mashutin-samples-index%26%26COLOR=yellow" alt="counter" align="right">
+   <img src="https://img.shields.io/endpoint?url=https://api.anayak.com.np/vcnt/?ID=mashutin-samples-index%26%26COLOR=yellow" alt="counter" align="right">
