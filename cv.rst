@@ -14,5 +14,7 @@ Denis Mashutin
 
       -  Portfolio: `mashutin.github.io <https://mashutin.github.io>`_
 
+         GitHub: `mashutin/mashutin.github.io <https://github.com/mashutin/mashutin.github.io>`_
+
 .. include:: readme.md
    :start-after: gmail.com**
