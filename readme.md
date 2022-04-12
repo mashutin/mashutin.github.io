@@ -3,7 +3,7 @@ CV
 
 **DENIS MASHUTIN**
 
-Location: **Alanya, Antalya, Turkey**
+Location: **Munich, Bavaria, Germany** (available starting in July 2022)
 
 Phone **+7 910 615 25 75**	
 
