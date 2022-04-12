@@ -8,7 +8,7 @@ Denis Mashutin
 
          E-mail **properevod@gmail.com**
 
-      -  Location: **Alanya, Antalya, Turkey**
+      -  Location: **Munich, Bavaria, Germany** (available starting in July 2022)
       
          Required position: **Technical Writer**
 
