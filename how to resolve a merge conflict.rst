@@ -6,7 +6,7 @@ How to Resolve a Merge Conflict
 
    This article explains how to resolve merge conflicts by using Visual Studio Code. The instructions are designed for beginners.
 
-A merge conflict occurs when you attempt to merge two branches, and they both contain changes in they same file.
+A merge conflict occurs when you attempt to merge two branches, and they both contain changes in the same line of the same file.
 
 When you create a pull request for such branches in the web interface, you will see a warning that this pull request cannot be merged because of the conflicts:
 
