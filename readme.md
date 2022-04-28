@@ -20,9 +20,9 @@ Skills and Attributes
 
 *  CI/CD: **GitHub Actions, Jenkins, webhooks**
 
-*  Web: **Selenium, XPATH, HTML, CSS, basic JS** 
+*  Web: **HTML, CSS, Selenium, XPATH, basic JS** 
 
-*  Diagrams & visual design: **Figma, Visual Paradigm, draw.io, MS PowerPoint**
+*  Diagrams & visual design: **Figma, draw.io, MS PowerPoint**
 
 *  Virtualization: **VMware, VirtualBox, Vagrant**
 
