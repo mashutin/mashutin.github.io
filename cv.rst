@@ -10,7 +10,7 @@ Denis Mashutin
 
       -  Location: **Munich, Bavaria, Germany** (available starting in July 2022)
       
-         Required position: **Technical Writer**
+         Required position: **Automation/System Integration Engineer**
 
       -  Portfolio: `mashutin.github.io <https://mashutin.github.io>`_
 
