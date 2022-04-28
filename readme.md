@@ -14,13 +14,17 @@ Skills and Attributes
 
 *  Programming languages: **Python, Bash**
 
+*  IDEs: **Visual Studio Code, PyCharm**
+
 *  Version control: **GitHub, GitLab, Bitbucket**
 
 *  Task tracking: **Jira, TFS, Azure DevOps**
 
 *  CI/CD: **GitHub Actions, Jenkins, webhooks**
 
-*  Web: **HTML, CSS, Selenium, XPATH, basic JS** 
+*  Web: **HTML, CSS, Selenium, XPATH, basic JS**
+
+*  Operation systems: **Linux, Windows**
 
 *  Diagrams & visual design: **Figma, draw.io, MS PowerPoint**
 
