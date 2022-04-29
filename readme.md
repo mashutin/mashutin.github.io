@@ -14,15 +14,15 @@ Skills and Attributes
 
 *  Programming languages: **Python, Bash**
 
-*  IDEs: **Visual Studio Code, PyCharm**
+*  Web: **HTML, CSS, Selenium, XPATH, basic JS**
 
 *  Version control: **GitHub, GitLab, Bitbucket**
 
-*  Task tracking: **Jira, TFS, Azure DevOps**
-
 *  CI/CD: **GitHub Actions, Jenkins, webhooks**
 
-*  Web: **HTML, CSS, Selenium, XPATH, basic JS**
+*  Task tracking: **Jira, TFS, Azure DevOps**
+
+*  IDEs: **Visual Studio Code, PyCharm**
 
 *  Operation systems: **Linux, Windows**
 
@@ -45,7 +45,11 @@ Positions and Accomplishments
 
 **2020—2021—Senior Technical Writer @ Kaspersky**
 
-*  Used Python+Tkinter to develop GUI for an internal tool with more than 100 users to make it usable by staff who are unfamiliar with CLI
+*  Contributed to the development of an internal integration solution with more than 100 users:
+
+   *  Significantly increased its performance by refactoring and redesigning the source code
+
+   *  Developed GUI to make it usable by staff who are unfamiliar with CLI
 
 *  Contributed to a company wide documentation testing environment
 
