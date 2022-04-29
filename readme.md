@@ -12,9 +12,9 @@ E-mail **properevod@gmail.com**
 Skills and Attributes
 ---------------------
 
-*  Programming languages: **Python, Bash**
+*  Languages & libraries: **Python, Bash, Selenium, Tkinter, NumPy**
 
-*  Web: **HTML, CSS, Selenium, XPATH, basic JS**
+*  Web: **HTML, CSS, XPATH, basic JS**
 
 *  Version control: **GitHub, GitLab, Bitbucket**
 
