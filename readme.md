@@ -3,7 +3,7 @@ CV
 
 **DENIS MASHUTIN**
 
-Location: **Munich, Bavaria, Germany** (available starting in July 2022)
+Location: **Munich, Bavaria, Germany**
 
 Phone **+7 910 615 25 75**	
 
@@ -31,7 +31,7 @@ Skills and Attributes
 Positions and Accomplishments
 -----------------------------
 
-**2021—now—Technical Writing Lead @ CMA Small Systems AB**
+**2021—2022—Technical Writing Lead @ CMA Small Systems AB**
 
 *  Designed and implemented a complete docs-as-code framework by using pandoc, Sphinx, python, and bash scripts
 
