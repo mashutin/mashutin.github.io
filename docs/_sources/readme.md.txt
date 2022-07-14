@@ -3,7 +3,7 @@ CV
 
 **DENIS MASHUTIN**
 
-Location: **Alanya, Antalya, Turkey**
+Location: **Munich, Bavaria, Germany**
 
 Phone **+7 910 615 25 75**	
 
@@ -16,11 +16,11 @@ Skills and Attributes
 
 *  Docs-as-code workflow: **Markdown, RST, Sphinx, pandoc**
 
-*  Authoring tools: **Author-IT, Visual Studio Code, MS Word**
+*  Authoring tools: **Author-IT, VSCode, Confluence, MS Word**
 
-*  Software development environment: **Git, TFS, Confluence, Jira, Bitbucket, GitHub Actions**
+*  Software development environment: **git, Bitbucket, Jira, TFS, Azure DevOps**
 
-*  Automation: **Python**, **Bash**, **Selenium**
+*  Automation: **Python, Bash, Selenium, XPATH, GitHub Actions, Jenkins, webhooks**
 
 *  Localization tools: **SDL Trados, Deja Vu, Smartcat**
 
@@ -31,7 +31,7 @@ Skills and Attributes
 Positions and Accomplishments
 -----------------------------
 
-**2021—now—Technical Writing Lead @ CMA Small Systems AB**
+**2021—2022—Technical Writing Lead @ CMA Small Systems AB**
 
 *  Designed and implemented a complete docs-as-code framework by using pandoc, Sphinx, python, and bash scripts
 
