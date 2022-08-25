@@ -16,7 +16,7 @@ import sys
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autosectionlabel','docxbuilder']
+extensions = ['sphinx.ext.autosectionlabel','docxbuilder','myst_parser']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -54,7 +54,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['cv.rst']
+exclude_patterns = ['_*']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'default'

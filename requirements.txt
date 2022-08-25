@@ -1,3 +1,4 @@
 sphinx-book-theme==0.1.5
 docxbuilder==1.2.0
 Sphinx==4.0.2
+myst-parser==0.18.0
