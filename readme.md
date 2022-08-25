@@ -5,8 +5,6 @@ CV
 
 Location: **Munich, Bavaria, Germany**
 
-Phone **+7 910 615 25 75**	
-
 E-mail **properevod@gmail.com**
 
 Skills and Attributes
