@@ -635,14 +635,14 @@ styles:
         - 0
       - - -1
         - -1
-      - 0.25
-      - black
+      - 1
+      - white
     - - ROWBACKGROUNDS
       - - 0
         - 0
       - - -1
         - -1
-      - - white
+      - - '#d0efff'
         - '#E0E0E0'
     - - BOX
       - - 0
@@ -650,11 +650,12 @@ styles:
       - - -1
         - -1
       - 0.25
-      - black
+      - white
     spaceAfter: 0
     spaceBefore: 6
   table-body:
     parent: normal
+    alignment: TA_CENTER
   table-heading:
     alignment: TA_CENTER
     borderPadding: 0

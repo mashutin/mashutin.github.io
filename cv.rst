@@ -1,9 +1,12 @@
 ==============
 DENIS MASHUTIN
 ==============
-----------------------------------------------------------------------
-Location: **Munich, Bavaria, Germany** E-mail **properevod@gmail.com**
-----------------------------------------------------------------------
+
+.. csv-table::
+
+    "Location: **Munich, Germany**",properevod@gmail.com, Certifications: `LinkedIn`_
+
+.. _LinkedIn: https://www.linkedin.com/in/denis-mashutin
 
 Skills and Attributes
 =====================
@@ -70,9 +73,3 @@ Positions and Accomplishments
 *  Wrote manuals for that system to make it usable by other team members (30 users)
 
 *  Kept track of provided services, managed everyday issues
-
-Education
-=========
-2008—Linguist, Arabic and English translator
-
-For the full list of courses and certifications, please visit my LinkedIn profile at https://www.linkedin.com/in/denis-mashutin.
