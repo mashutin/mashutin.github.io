@@ -69,9 +69,6 @@ jobs:
       - name: Commit documentation changes
         run: |
           git clone https://github.com/mashutin/mashutin.github.io.git --branch ${{ steps.extract_branch.outputs.branch }}
-          rm -rf cv/
-          mkdir cv
-          cp -r _build/cv.pdf cv/
           git config --local user.email "action@github.com"
           git config --local user.name "auto pdf build"
           git add .
