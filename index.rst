@@ -9,15 +9,14 @@ Welcome to my writing samples page!
    :caption: Contents:
    :hidden:
 
-   readme
    how to interact with win api
    encoding unicode
    api ref sample
    how to resolve a merge conflict
 
-Have a look at my updated :ref:`CV`.
+.. Have a look at my updated :ref:`CV`.
 
-Or check out some sample articles:
+.. Or check out some sample articles:
 
 #. :ref:`How to Interact with Windows API Functions in PowerShell`
 

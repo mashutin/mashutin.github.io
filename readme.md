@@ -1,14 +1,12 @@
-CV
-===
-
-**DENIS MASHUTIN**
-
-Location: **Munich, Bavaria, Germany**
-
-E-mail **properevod@gmail.com**
+==============
+DENIS MASHUTIN
+==============
+----------------------------------------------------------------------
+Location: **Munich, Bavaria, Germany** E-mail **properevod@gmail.com**
+----------------------------------------------------------------------
 
 Skills and Attributes
----------------------
+=====================
 
 *  Experience writing **user manuals, SDK documentation, API documentation**
 
@@ -27,7 +25,7 @@ Skills and Attributes
 *  Virtualization: **VMware, VirtualBox, Vagrant**
 
 Positions and Accomplishments
------------------------------
+=============================
 
 **2021—2022—Technical Writing Lead @ CMA Small Systems AB**
 
@@ -74,7 +72,7 @@ Positions and Accomplishments
 *  Kept track of provided services, managed everyday issues
 
 Education
----------
+=========
 2008—Linguist, Arabic and English translator
 
 For the full list of courses and certifications, please visit my LinkedIn profile at https://www.linkedin.com/in/denis-mashutin.
