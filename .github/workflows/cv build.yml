@@ -47,7 +47,7 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: python3 -m pip install -r ./requirements.txt
+        run: python3 -m pip install rst2pdf
 
       - run: source ./build_cv.sh
 
