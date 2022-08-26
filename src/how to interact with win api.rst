@@ -124,7 +124,7 @@ Then discover the containing module and type:
 
 The PowerShell window will display the following:
 
-.. image:: _static/1.png
+.. image:: ../_static/1.png
 
 
  

@@ -10,7 +10,7 @@ A merge conflict occurs when you attempt to merge two branches, and they both co
 
 When you create a pull request for such branches in the web interface, you will see a warning that this pull request cannot be merged because of the conflicts:
 
-.. figure:: _static/bitbucket_PR.png
+.. figure:: ../_static/bitbucket_PR.png
 
 Finding the conflicting file
 ============================
@@ -32,11 +32,11 @@ You will get a message with the name of the conflicting file.
 
 That can be a binary or a text file:
 
-.. figure:: _static/conflict_in_binary.png
+.. figure:: ../_static/conflict_in_binary.png
 
    Merge conflict in a binary file
 
-.. figure:: _static/conflict_in_text.png
+.. figure:: ../_static/conflict_in_text.png
 
    Merge conflict in a text file
 
@@ -53,7 +53,7 @@ Merge conflict in a binary file
 
 #. Run ``git status`` and copy the path to the conflicting file:
 
-   .. figure:: _static/unmerged.png
+   .. figure:: ../_static/unmerged.png
 
 #. Run the following command::
 
@@ -61,7 +61,7 @@ Merge conflict in a binary file
 
    For example:
 
-   .. figure:: _static/checkout_theirs.png
+   .. figure:: ../_static/checkout_theirs.png
 
    The file from the **destination branch** will be saved, and the file from the **source branch** will be ignored (but we will still have the backup version from step 1).
 
@@ -97,7 +97,7 @@ Merge conflict in a text file
 
    The conflicting lines will be highlighted:
 
-   .. figure:: _static/conflict_lines.png
+   .. figure:: ../_static/conflict_lines.png
 
 #. For each conflicting line, select one of the following options:
 
@@ -105,7 +105,7 @@ Merge conflict in a text file
    *  Accept Incoming Change
    *  Accept Both Changes
 
-   .. figure:: _static/lines_select.png
+   .. figure:: ../_static/lines_select.png
 
 #. Save the file (Ctrl+S).
 

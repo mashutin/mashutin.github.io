@@ -9,10 +9,10 @@ Welcome to my writing samples page!
    :caption: Contents:
    :hidden:
 
-   how to interact with win api
-   encoding unicode
-   api ref sample
-   how to resolve a merge conflict
+   src/how to interact with win api
+   src/encoding unicode
+   src/api ref sample
+   src/how to resolve a merge conflict
 
 .. Have a look at my updated :ref:`CV`.
 
