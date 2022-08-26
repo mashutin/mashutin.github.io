@@ -1,1 +1,1 @@
-rst2pdf src/cv.rst cv/cv.pdf -s cv_style.yml
+rst2pdf cv/cv.rst cv/cv.pdf -s cv_style.yml
