@@ -25,8 +25,3 @@ Welcome to my writing samples page!
 #. :ref:`Sample API documentation`
 
 #. :ref:`How to Resolve a Merge Conflict`
-
-
-.. raw:: html
-
-   <img src="https://img.shields.io/endpoint?url=https://api.anayak.com.np/vcnt/?ID=mashutin-samples-index%26%26COLOR=yellow" alt="counter" align="right">

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://helpserver.labs.jb.gg/help/schemas/mvp/redirection-rules.dtd">
+<rules>
+    <rule id="${ID}">
+        <accepts>page.html</accepts>
+    </rule>
+    <rule id="7820f651">
+        <description>Created after removal of "Welcome to Writerside!" from portfolio</description>
+        <accepts>starter-topic.html</accepts>
+    </rule>
+</rules>
