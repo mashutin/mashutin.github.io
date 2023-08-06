@@ -7,4 +7,5 @@
                  start-page="encoding unicode.md">
 
     <toc-element topic="encoding unicode.md"/>
+    <toc-element topic="api ref sample.md"/>
 </instance-profile>
