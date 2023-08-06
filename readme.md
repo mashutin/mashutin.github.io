@@ -12,13 +12,13 @@ E-mail **properevod@gmail.com**
 Skills and Attributes
 ---------------------
 
-*  Experience writing **user manuals, SDK documentation, API documentation**
+*  Experience writing **user guides, API/SDK documentation, tutorials**
 
-*  Docs-as-code workflow: **Markdown, RST, Sphinx, pandoc**
+*  Docs-as-code workflow: **Markdown, XML, RST, Sphinx, pandoc**
 
-*  Authoring tools: **Author-IT, VSCode, Confluence, MS Word**
+*  Authoring tools and IDEs: **VSCode, IntelliJ IDEA, PyCharm, Author-IT, Confluence**
 
-*  Software development environment: **git, Bitbucket, Jira, TFS, Azure DevOps**
+*  Software development environment: **git, Bitbucket, Jira, TeamCity, YouTrack**
 
 *  Automation: **Python, Bash, Selenium, XPATH, GitHub Actions, Jenkins, webhooks**
 
@@ -26,12 +26,20 @@ Skills and Attributes
 
 *  Diagrams & visual design: **Figma, Visual Paradigm, draw.io, MS PowerPoint**
 
-*  Virtualization: **VMware, VirtualBox, Vagrant**
+*  Virtualization: **Docker, VMware, VirtualBox, Vagrant**
 
 Positions and Accomplishments
 -----------------------------
 
-**2021—now—Technical Writing Lead @ CMA Small Systems AB**
+**2022—now—Technical Writer @ JetBrains**
+
+* Document new features and update the existing documentation for several IDEs
+
+* Process documentation-related feedback and issues
+
+* Create content including tutorials and videos
+
+**2021—2022—Technical Writing Lead @ CMA Small Systems AB**
 
 *  Designed and implemented a complete docs-as-code framework by using pandoc, Sphinx, python, and bash scripts
 
@@ -78,5 +86,3 @@ Positions and Accomplishments
 Education
 ---------
 2008—Linguist, Arabic and English translator
-
-For the full list of courses and certifications, please visit my LinkedIn profile at https://www.linkedin.com/in/denis-mashutin.

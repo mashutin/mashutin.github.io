@@ -2,19 +2,14 @@ Denis Mashutin
 ---------------
 
 .. list-table::
-   :widths: 33 33 33
+   :widths: 50 50
 
-   *  -  Phone **+7 910 615 25 75**	
+   *  -  Phone **+49 152 59 8208 59**
 
          E-mail **properevod@gmail.com**
 
-      -  Location: **Alanya, Antalya, Turkey**
-      
-         Planned relocation to Germany
+      -  Location: **Munich, Bavaria, Germany**
 
-      -  Portfolio: `mashutin.github.io <https://mashutin.github.io>`_
-
-         GitHub: `mashutin/mashutin.github.io <https://github.com/mashutin/mashutin.github.io>`_
 
 .. include:: readme.md
    :start-after: gmail.com**
