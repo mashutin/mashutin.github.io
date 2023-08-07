@@ -3,6 +3,6 @@
 
 <ihp version="2.0">
     <topics dir="topics"/>
-    <images dir="images" web-path="mashutin.github.io"/>
+    <images dir="images"/>
     <instance src="pf.tree"/>
 </ihp>
