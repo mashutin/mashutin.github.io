@@ -115,7 +115,7 @@ PUT /accounts/\{account_id}
 <tr>
 <td>account_status</td>
 <td>optional</td>
-<td>The Access Rights type of the account.</td>
+<td>The <code>Access Rights</code> type of the account.</td>
 <td>string</td>
 </tr>
 <tr>

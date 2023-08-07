@@ -8,7 +8,7 @@ A merge conflict occurs when you attempt to merge two branches, and they both co
 
 When you create a pull request for such branches in the web interface, you will see a warning that this pull request cannot be merged because of the conflicts:
 
-![Conflict warning](bitbucket_PR.png)
+<img src="./bitbucket_PR.png" alt="Conflict warning" border-effect="line"/>
 
 ## Finding the conflicting file
 
@@ -29,11 +29,11 @@ You will get a message with the name of the conflicting file.
 
 That can be a binary or a text file:
 
-![Conflict in a binary file](conflict_in_binary.png)
+<img src="./conflict_in_binary.png" alt="Conflict in a binary file" border-effect="line"/>
 
 *Merge conflict in a binary file*
 
-![Conflict in a text file](conflict_in_text.png)
+<img src="./conflict_in_text.png" alt="Conflict in a text file" border-effect="line"/>
 
 *Merge conflict in a text file*
 
@@ -49,7 +49,7 @@ To resolve the conflict, perform the steps described in the following sections, 
 
 1. Run ``git status`` and copy the path to the conflicting file:
 
-    ![Git status command](unmerged.png)
+   <img src="./unmerged.png" alt="Git status command" border-effect="line"/>
 
 1. Run the following command:
 
@@ -59,7 +59,7 @@ To resolve the conflict, perform the steps described in the following sections, 
 
    For example:
 
-   ![Checkout theirs](checkout_theirs.png)
+   <img src="./checkout_theirs.png" alt="Checkout theirs" border-effect="line"/>
 
    The file from the **destination branch** will be saved, and the file from the **source branch** will be ignored (but we will still have the backup version from step 1).
 
@@ -96,7 +96,7 @@ To resolve the conflict, perform the steps described in the following sections, 
 
    The conflicting lines will be highlighted:
 
-   ![Conflicting lines](conflict_lines.png)
+   <img src="./conflict_lines.png" alt="Conflicting lines" border-effect="line"/>
 
 1. For each conflicting line, select one of the following options:
 
@@ -104,7 +104,7 @@ To resolve the conflict, perform the steps described in the following sections, 
    *  Accept Incoming Change
    *  Accept Both Changes
 
-   ![Selecting lines](lines_select.png)
+   <img src="./lines_select.png" alt="Selecting lines" border-effect="line"/>
 
 1. Save the file (Ctrl+S).
 
