@@ -7,6 +7,6 @@
                  start-page="encoding unicode.md">
 
     <toc-element topic="encoding unicode.md"/>
-    <toc-element topic="api ref sample.md"/>
+    <toc-element topic="api ref sample.md" show-structure-depth="3"/>
     <toc-element topic="how to resolve a merge conflict.md"/>
 </instance-profile>

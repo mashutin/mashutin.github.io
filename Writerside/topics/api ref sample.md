@@ -34,43 +34,43 @@ GET /accounts
 ##### Request example
 
 ```
-   curl -i -X GET “https://api.supertrader.com/1.0/accounts?limit=50” \
-      -H “Authorization: Bearer token12345”
+curl -i -X GET “https://api.supertrader.com/1.0/accounts?limit=50” \
+  -H “Authorization: Bearer token12345”
 ```
 
 ##### Response example
 
 ```
-   {
-      "entries": [
-         {
-            "account_id": 12345,
-            "account": 5432674321,
-            "online": true,
-            "account_status": "demo",
-            "name": "John",
-            "last_name": "Smith",
-            "city": "New York",
-            "state": "NY",
-            "country": "US",
-            "post_code": 10001,
-            "comment": "Demo account"
-         },
-         {
-            "account_id": 98765,
-            "account": 456353535,
-            "online": true,
-            "account_status": "demo",
-            "name": "Jane",
-            "last_name": "Doe",
-            "city": "Austin",
-            "state": "TX",
-            "country": "US",
-            "post_code": 73301,
-            "comment": "Demo account"
-         }
-      ]
-   }
+{
+  "entries": [
+     {
+        "account_id": 12345,
+        "account": 5432674321,
+        "online": true,
+        "account_status": "demo",
+        "name": "John",
+        "last_name": "Smith",
+        "city": "New York",
+        "state": "NY",
+        "country": "US",
+        "post_code": 10001,
+        "comment": "Demo account"
+     },
+     {
+        "account_id": 98765,
+        "account": 456353535,
+        "online": true,
+        "account_status": "demo",
+        "name": "Jane",
+        "last_name": "Doe",
+        "city": "Austin",
+        "state": "TX",
+        "country": "US",
+        "post_code": 73301,
+        "comment": "Demo account"
+     }
+  ]
+}
 ```
 {lang="json"}
 
@@ -167,30 +167,30 @@ PUT /accounts/\{account_id}
 ##### Request example
 
 ```
-   curl -i -X PUT “https://api.supertrader.com/1.0/accounts/12345” \
-      -H “Authorization: Bearer token12345” \
-      -H “Content-Type”: application/json” \
-      -d ‘{
-         “comment”: “The best account ever!”
-      }’
+curl -i -X PUT “https://api.supertrader.com/1.0/accounts/12345” \
+  -H “Authorization: Bearer token12345” \
+  -H “Content-Type”: application/json” \
+  -d ‘{
+     “comment”: “The best account ever!”
+  }’
 ```
 {lang="curl"}
 
-Response example
-~~~~~~~~~~~~~~~~
+##### Response example
 
-.. code-block:: json
-
-   {
-      "account_id": 12345,
-      "account": 5432674321,
-      "online": true,
-      "account_status": "demo",
-      "name": "Denis",
-      "last_name": "Mashutin",
-      "city": "Alanya",
-      "state": "Antalya",
-      "country": "Turkey",
-      "post_code": 07400,
-      "comment": "The best account ever!"
-   }
+```
+{
+  "account_id": 12345,
+  "account": 5432674321,
+  "online": true,
+  "account_status": "demo",
+  "name": "John",
+  "last_name": "Smith",
+  "city": "New York",
+  "state": "NY",
+  "country": "US",
+  "post_code": 1001,
+  "comment": "The best account ever!"
+}
+```
+{lang="json"}
