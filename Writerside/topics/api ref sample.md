@@ -4,17 +4,15 @@
 > 
 {style="note"}
 
-### Account
-
 The ``Account`` object represents a trading account. An ``Account`` is owned by one user (``Account Owner``).
 
-#### Getting a list of accounts
+## Getting a list of accounts
 
 {style="medium"}
 GET /accounts
 : Returns a list of all trading accounts with their details.
 
-##### Query string parameters
+### Query string parameters
 
 <table style="both">
 <tr>
@@ -31,14 +29,14 @@ GET /accounts
 </tr>
 </table>
 
-##### Request example
+### Request example
 
 ```
 curl -i -X GET “https://api.supertrader.com/1.0/accounts?limit=50” \
   -H “Authorization: Bearer token12345”
 ```
 
-##### Response example
+### Response example
 
 ```
 {
@@ -74,13 +72,13 @@ curl -i -X GET “https://api.supertrader.com/1.0/accounts?limit=50” \
 ```
 {lang="json"}
 
-#### Modifying an account
+## Modifying an account
 
 {style="wide"}
 PUT /accounts/\{account_id}
 : Modifies the account by updating its details. Returns the updated account details.
 
-##### Path parameters
+### Path parameters
 
 <table style="both">
 <tr>
@@ -93,7 +91,7 @@ PUT /accounts/\{account_id}
 </tr>
 </table>
 
-##### Request body
+### Request body
 
 <table style="both">
 <tr>
@@ -164,7 +162,7 @@ PUT /accounts/\{account_id}
 </tr>
 </table>
 
-##### Request example
+### Request example
 
 ```
 curl -i -X PUT “https://api.supertrader.com/1.0/accounts/12345” \
@@ -176,7 +174,7 @@ curl -i -X PUT “https://api.supertrader.com/1.0/accounts/12345” \
 ```
 {lang="curl"}
 
-##### Response example
+### Response example
 
 ```
 {
