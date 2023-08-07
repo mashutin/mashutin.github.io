@@ -6,7 +6,9 @@
                  name="Writing samples"
                  start-page="encoding unicode.md">
 
-    <toc-element topic="encoding unicode.md"/>
-    <toc-element topic="api ref sample.md"/>
-    <toc-element topic="how to resolve a merge conflict.md"/>
+    <toc-element topic="Writing-Sample-by-Denis-Mashutin.topic">
+        <toc-element topic="how to resolve a merge conflict.md"/>
+        <toc-element topic="api ref sample.md"/>
+        <toc-element topic="encoding unicode.md"/>
+    </toc-element>
 </instance-profile>
