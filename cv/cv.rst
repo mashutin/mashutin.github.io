@@ -11,13 +11,13 @@ DENIS MASHUTIN
 Skills and Attributes
 =====================
 
-*  Experience writing **user manuals, SDK documentation, API documentation**
+*  Experience writing **user guides, API/SDK documentation, tutorials**
 
-*  Docs-as-code workflow: **Markdown, RST, Sphinx, pandoc**
+*  Docs-as-code workflow: **Markdown, XML, RST, Sphinx, pandoc**
 
-*  Authoring tools: **Author-IT, VSCode, Confluence, MS Word**
+*  Authoring tools and IDEs: **VSCode, IntelliJ IDEA, PyCharm, Author-IT, Confluence**
 
-*  Software development environment: **git, Bitbucket, Jira, TFS, Azure DevOps**
+*  Software development environment: **git, Bitbucket, Jira, TeamCity, YouTrack**
 
 *  Automation: **Python, Bash, Selenium, XPATH, GitHub Actions, Jenkins, webhooks**
 
@@ -25,10 +25,18 @@ Skills and Attributes
 
 *  Diagrams & visual design: **Figma, Visual Paradigm, draw.io, MS PowerPoint**
 
-*  Virtualization: **VMware, VirtualBox, Vagrant**
+*  Virtualization: **Docker, VMware, VirtualBox, Vagrant**
 
 Positions and Accomplishments
 =============================
+
+**2022—now—Technical Writer @ JetBrains**
+
+* Document new features and update the existing documentation for several IDEs
+
+* Process documentation-related feedback and issues
+
+* Create content including tutorials and videos
 
 **2021—2022—Technical Writing Lead @ CMA Small Systems AB**
 
@@ -63,13 +71,3 @@ Positions and Accomplishments
 *  Maintained technical documentation for equipment, plants, oil & gas wells
 
 *  Translated laws and technical standards
-
-**2013—2018—Technical Translator @ Engineering team in UAE**
-
-*  Developed a custom system for processing spare parts orders by using Excel+VBA, which allowed automating daily activities and preventing possible mistakes
-
-*  Added 3,300 items to the system database
-
-*  Wrote manuals for that system to make it usable by other team members (30 users)
-
-*  Kept track of provided services, managed everyday issues
