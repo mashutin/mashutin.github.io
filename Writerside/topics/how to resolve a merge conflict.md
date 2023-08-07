@@ -9,6 +9,7 @@ A merge conflict occurs when you attempt to merge two branches, and they both co
 When you create a pull request for such branches in the web interface, you will see a warning that this pull request cannot be merged because of the conflicts:
 
 <img src="./bitbucket_PR.png" alt="Conflict warning" border-effect="line"/>
+<img src="bitbucket_PR.png" alt="Conflict warning" border-effect="line"/>
 
 ## Finding the conflicting file
 
