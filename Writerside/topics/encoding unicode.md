@@ -1,4 +1,4 @@
-# Encoding Unicode: UTF-8 vs. UTF-16
+# Encoding Unicode: UTF-8 vs UTF-16
 
 ### Before Unicode
 
