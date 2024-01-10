@@ -8,4 +8,16 @@
         <description>Created after removal of "Welcome to Writerside!" from portfolio</description>
         <accepts>starter-topic.html</accepts>
     </rule>
+    <rule id="29ccf205">
+        <description>Created after removal of "About my_kb" from my_kb</description>
+        <accepts>my-kb.html</accepts>
+    </rule>
+    <rule id="6455170e">
+        <description>Created after removal of "Starter" from my_kb</description>
+        <accepts>Starter.html</accepts>
+    </rule>
+    <rule id="76175ed">
+        <description>Created after removal of "Overview" from my_kb</description>
+        <accepts>General-Structure.html</accepts>
+    </rule>
 </rules>

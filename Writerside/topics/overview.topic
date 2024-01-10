@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Overview" id="overview" help-id="Knowledge-Base">
+
+<!--    A section combines multiple topics dedicated to a specific subject.
+            Add a starting page to provide an overview of the topics in the section.
+            Start with two topics you want to promote in the <spotlight> group,
+            several important topics in the <primary> group (for example, where to start),
+            several less important topics in the <secondary> group (for example, more advanced topics),
+            and optionally add any other relevant topics in the <misc> group as cards and lists of links
+            (maybe related topics from other sections).
+            Only the spotlight section is limited to two topics.
+            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <section-starting-page>
+        <title>Knowledge Base</title>
+<!--        <description>-->
+<!--            Add an introductory paragraph: explain what this section is about in 2-3 short sentences.-->
+<!--        </description>-->
+
+<!--            Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
+        <spotlight>
+            <a href="content.md" type="creative" summary="Content to be created"/>
+            <a href="questionnaire.md" type="cross-check" summary="Questionnaire for clients"/>
+        </spotlight>
+
+<!--        &lt;!&ndash;    Add several topics that are most important for this section.    &ndash;&gt;-->
+<!--        <primary>-->
+<!--            <title>Get started</title>-->
+<!--            <a href=""/>-->
+<!--            <a href="" summary="With a custom card summary"/>-->
+<!--            <a href="">Custom card title</a>-->
+<!--            <a href="" summary="With a custom card summary">Custom card title</a>-->
+<!--        </primary>-->
+
+<!--        &lt;!&ndash;    Add several topics that are less important or are relevant only for advanced/experienced users.    &ndash;&gt;-->
+<!--        <secondary>-->
+<!--            <title>Explore advanced features</title>-->
+<!--            <a href=""/>-->
+<!--            <a href="" summary="With a custom card summary"/>-->
+<!--            <a href="">Custom card title</a>-->
+<!--            <a href="" summary="With a custom card summary">Custom card title</a>-->
+<!--        </secondary>-->
+
+        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
+        <misc>
+<!--            <cards>-->
+<!--                <title>Other relevant topics as wide cards</title>-->
+<!--                <a href=""/>-->
+<!--                <a href="" summary="With a custom card summary"/>-->
+<!--                <a href="">Custom card title</a>-->
+<!--                <a href="" summary="With a custom card summary">Custom card title</a>-->
+<!--            </cards>-->
+
+<!--            <cards narrow="true">-->
+<!--                <title>Other relevant topics as narrow cards</title>-->
+<!--                <a href=""/>-->
+<!--                <a href=""/>-->
+<!--                <a href="" summary="With a custom card summary"/>-->
+<!--                <a href="">Custom card title</a>-->
+<!--                <a href="">Custom card title</a>-->
+<!--                <a href="" summary="With a custom card summary">Custom card title</a>-->
+<!--            </cards>-->
+
+<!--            <links>-->
+<!--                <group>-->
+<!--                    <title>Other related topics as links</title>-->
+<!--                    <a href=""/>-->
+<!--                    <a href="" summary="With a custom card summary"/>-->
+<!--                    <a href="">Custom card title</a>-->
+<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
+<!--                </group>-->
+<!--                <group>-->
+<!--                    <title>Two in a row</title>-->
+<!--                    <a href=""/>-->
+<!--                    <a href="" summary="With a custom card summary"/>-->
+<!--                    <a href="">Custom card title</a>-->
+<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
+<!--                </group>-->
+<!--            </links>-->
+
+            <links narrow="true">
+                <group>
+    <title>Processes</title>
+                    <a href="what_to_document.md"/>
+                    <a href="delivery.md"/>
+                    <a href="responsibilities.md"/>
+                    <a href="task_completeness.md"/>
+                    <a href="bug_tracker.md"/>
+                    <a href="training.md"/>
+                    <a href="migration.md"/>
+                </group>
+                <group>
+    <title>Storage and version control</title>
+                    <a href="synchronization.md"/>
+                    <a href="git.md"/>
+                    <a href="sharepoint.md"/>
+                    <a href="other.md"/>
+                </group>
+                <group>
+    <title>Documentation types by audience</title>
+                    <a href="user_docs.md"/>
+                    <a href="dev_docs.md"/>
+                    <a href="api.md"/>
+                </group>
+                <group>
+    <title>Architeture</title>
+                    <a href="diataxis.md"/>
+                    <a href="dita.md"/>
+                    <a href="info_mapping.md"/>
+                    <a href="good_docs.md"/>
+                </group>
+                    <group>
+    <title>Authoring Tools</title>
+                        <a href="editors.md"/>
+                        <a href="markup.md"/>
+                        <a href="wiki.md"/>
+                        <a href="cms.md"/>
+                    </group>
+                    <a href="visuals.md"/>
+                    <group>
+    <title>Quality Assurance</title>
+                        <a href="spellcheck.md"/>
+                        <a href="linters.md"/>
+                        <a href="style_guide.md"/>
+                        <a href="review.md"/>
+                    </group>
+                        <group>
+    <title>Publishing: Open-source tools</title>
+                            <a href="sphinx.md"/>
+                            <a href="antora.md"/>
+                            <a href="hugo.md"/>
+                            <a href="docusaurus.md"/>
+                        </group>
+                        <group>
+    <title>Publishing: Paid tools</title>
+                            <a href="authorit.md"/>
+                            <a href="madcap_flare.md"/>
+                            <a href="writerside.md"/>
+                            <a href="jb_ide.md"/>
+                            <a href="redocly.md"/>
+                            <a href="readme.md"/>
+                            <a href="doc360.md"/>
+                            <a href="stoplight.md"/>
+                            <a href="gatsby_js.md"/>
+                            <a href="ms_word.md"/>
+                        </group>
+                    <group>
+    <title>Maintenance</title>
+                        <a href="versioning.md"/>
+                        <a href="feedback.md"/>
+                        <a href="updates.md"/>
+                    </group>
+            </links>
+        </misc>
+    </section-starting-page>
+
+</topic>

@@ -1,3 +1,3 @@
-# authorit
+# AuthorIT
 
 Start typing here...

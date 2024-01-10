@@ -1,3 +1,3 @@
-# linters
+# Linters
 
 Start typing here...

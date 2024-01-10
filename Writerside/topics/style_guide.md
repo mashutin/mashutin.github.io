@@ -1,3 +1,3 @@
-# style_guide
+# Style Guide
 
 Start typing here...

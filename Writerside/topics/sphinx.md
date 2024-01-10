@@ -1,3 +1,3 @@
-# sphinx
+# Sphinx
 
 Start typing here...

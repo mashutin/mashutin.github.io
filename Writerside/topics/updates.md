@@ -1,3 +1,3 @@
-# updates
+# Updating Documentation
 
 Start typing here...

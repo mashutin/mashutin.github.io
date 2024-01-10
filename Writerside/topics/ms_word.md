@@ -1,3 +1,3 @@
-# ms_word
+# MS Word
 
 Start typing here...

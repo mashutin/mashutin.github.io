@@ -1,4 +1,4 @@
-# When should the documentation be delivered
+# Documentation release cycle
 
 ## Synchronously
 ## Asynchronously

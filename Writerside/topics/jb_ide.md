@@ -1,3 +1,3 @@
-# jb_ide
+# JB IDEs
 
 Start typing here...

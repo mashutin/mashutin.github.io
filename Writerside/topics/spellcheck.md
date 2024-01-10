@@ -1,3 +1,3 @@
-# spellcheck
+# Spellcheckers
 
 Start typing here...

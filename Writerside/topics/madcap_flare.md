@@ -1,3 +1,3 @@
-# madcap_flare
+# Madcap Flare
 
 Start typing here...
