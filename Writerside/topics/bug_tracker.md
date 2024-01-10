@@ -1,0 +1,3 @@
+# Working with the bug tracking system
+
+Start typing here...

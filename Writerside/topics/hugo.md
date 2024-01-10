@@ -1,0 +1,3 @@
+# hugo
+
+Start typing here...

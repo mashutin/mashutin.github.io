@@ -16,6 +16,11 @@
   * Training
     * Writers
     * Non-writers
+  * Migration
+    * Built-in tools
+    * 3rd party tools
+    * Compatibility
+    * Scripts
 * Storage & version control
   * Synchronization
   * Git
@@ -30,17 +35,17 @@
   * The Good Docs Project
 * Authoring
   * Tools
-    * Open-source tools
-      * Sphinx
-      * AsciiDoc (Antora)
-      * Hugo
-      * Docusaurus
-    * Paid tools
-      * Author IT
-      * MadCap Flare
+    * Text editors
+      * VSCode
+      * Sublime
+      * JB IDEs
       * JB Writerside
-      * Readocly
       * MS Word
+    * Markup languages
+      * Markdown
+      * XML
+      * RST
+      * AsciiDoc
     * Wiki systems
       * Gitbook
       * Gitlab
@@ -49,12 +54,30 @@
     * CMS
       * DjangoCMS
       * Wordpress
-  * Style Guides
-* Review
-  * Peer review
-  * Stakeholder review
+  * Quality checks
+    * Spellcheckers
+    * Linters
+    * Style Guides
+    * Review
+      * Peer review
+      * Stakeholder review
 * Publishing
-  * Tools & platforms
+  * Open-source tools
+    * Sphinx
+    * Antora
+    * Hugo
+    * Docusaurus
+  * Paid tools
+    * Author IT
+    * MadCap Flare
+    * JB Writerside
+    * Redocly
+    * Readme
+    * Document360
+    * Stoplight
+    * Gatsby JS
+    * MS Word
+  * Wiki systems
 * Maintenance
   * Versioning
   * Collecting feedback

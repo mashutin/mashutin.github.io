@@ -9,4 +9,65 @@
     <toc-element topic="my-kb.md"/>
     <toc-element topic="Starter.md"/>
     <toc-element topic="General-Structure.md"/>
+    <toc-element toc-title="Processes" >
+      <toc-element topic="what_to_document.md"/>
+      <toc-element topic="delivery.md"/>
+      <toc-element topic="responsibilities.md"/>
+      <toc-element topic="task_completeness.md"/>
+      <toc-element topic="bug_tracker.md"/>
+      <toc-element topic="training.md"/>
+      <toc-element topic="migration.md"/>
+    </toc-element>
+    <toc-element toc-title="Storage&amp;version control">
+        <toc-element topic="synchronization.md"/>
+        <toc-element topic="git.md"/>
+        <toc-element topic="sharepoint.md"/>
+        <toc-element topic="other.md"/>
+    </toc-element>
+    <toc-element toc-title="Architeture">
+        <toc-element topic="diataxis.md"/>
+        <toc-element topic="dita.md"/>
+        <toc-element topic="info_mapping.md"/>
+        <toc-element topic="good_docs.md"/>
+    </toc-element>
+    <toc-element toc-title="Authoring">
+        <toc-element toc-title="Tools">
+            <toc-element topic="editors.md"/>
+            <toc-element topic="markup.md"/>
+            <toc-element topic="wiki.md"/>
+            <toc-element topic="cms.md"/>
+        </toc-element>
+        <toc-element toc-title="Quality Assurance">
+            <toc-element topic="spellcheck.md"/>
+            <toc-element topic="linters.md"/>
+            <toc-element topic="style_guide.md"/>
+            <toc-element topic="review.md"/>
+        </toc-element>
+        <toc-element toc-title="Publishing.md">
+            <toc-element toc-title="Open-source tools">
+                <toc-element topic="sphinx.md"/>
+                <toc-element topic="antora.md"/>
+                <toc-element topic="hugo.md"/>
+                <toc-element topic="docasaurus.md"/>
+            </toc-element>
+            <toc-element toc-title="Paid tools">
+                <toc-element topic="authorit.md"/>
+                <toc-element topic="madcap_flare.md"/>
+                <toc-element topic="writerside.md"/>
+                <toc-element topic="jb_ide.md"/>
+                <toc-element topic="redocly.md"/>
+                <toc-element topic="readme.md"/>
+                <toc-element topic="doc360.md"/>
+                <toc-element topic="stoplight.md"/>
+                <toc-element topic="gatsby_js.md"/>
+                <toc-element topic="ms_word.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element toc-title="Maintenance">
+            <toc-element topic="versioning.md"/>
+            <toc-element topic="feedback.md"/>
+            <toc-element topic="updates.md"/>
+        </toc-element>
+    </toc-element>
+
 </instance-profile>
