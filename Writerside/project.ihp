@@ -5,4 +5,5 @@
     <topics dir="topics"/>
     <images dir="images"/>
     <instance src="pf.tree"/>
+    <instance src="kb.tree" web-path="/kb/"/>
 </ihp>

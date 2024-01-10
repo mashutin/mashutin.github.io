@@ -1,0 +1,3 @@
+# About my_kb
+
+Start typing here...

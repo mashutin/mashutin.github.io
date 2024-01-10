@@ -20,9 +20,9 @@
 
         <!--    Add several topics that are most important for this section.    -->
         <primary>
-            <a href="api ref sample.md" summary="This sample is a part of a fictional API reference for the non-existent trading platform."/>
-            <a href="how to resolve a merge conflict.md"/>
-            <a href="encoding unicode.md" summary="This article explains the difference between UTF-8 and UTF-16."/>
+            <a href="api_ref_sample.md" summary="This sample is a part of a fictional API reference for the non-existent trading platform."/>
+            <a href="how_to_resolve_a_merge_conflict.md"/>
+            <a href="encoding_unicode.md" summary="This article explains the difference between UTF-8 and UTF-16."/>
         </primary>
 
     </section-starting-page>

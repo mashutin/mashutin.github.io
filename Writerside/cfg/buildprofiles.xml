@@ -8,5 +8,10 @@
             <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
+    <build-profile instance="kb">
+        <variables>
+            <noindex-content>true</noindex-content>
+        </variables>
+    </build-profile>
 
 </buildprofiles>

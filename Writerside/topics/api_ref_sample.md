@@ -162,7 +162,7 @@ PUT /accounts/\{account_id}
 </tr>
 </table>
 
-### Request example
+### Request example {id="modify-request"}
 
 ```
 curl -i -X PUT “https://api.supertrader.com/1.0/accounts/12345” \
@@ -174,7 +174,7 @@ curl -i -X PUT “https://api.supertrader.com/1.0/accounts/12345” \
 ```
 {lang="curl"}
 
-### Response example
+### Response example {id="modify-response"}
 
 ```
 {

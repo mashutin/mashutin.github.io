@@ -7,8 +7,8 @@
                  start-page="Writing-Sample-by-Denis-Mashutin.topic">
 
     <toc-element topic="Writing-Sample-by-Denis-Mashutin.topic">
-        <toc-element topic="how to resolve a merge conflict.md"/>
-        <toc-element topic="api ref sample.md"/>
-        <toc-element topic="encoding unicode.md"/>
+        <toc-element topic="how_to_resolve_a_merge_conflict.md"/>
+        <toc-element topic="api_ref_sample.md"/>
+        <toc-element topic="encoding_unicode.md"/>
     </toc-element>
 </instance-profile>
